@@ -1,0 +1,44 @@
+﻿using System.IO;
+using System.Security.Cryptography;
+using System.Text;
+
+namespace QuizApp.Generator.Services
+{
+    public static class EncryptionService
+    {
+        private readonly static byte[] _key = Encoding.UTF8.GetBytes("gh8ZtKnolXKSP4/k");
+        private readonly static byte[] _iv = Encoding.UTF8.GetBytes("Ic9lTVLe43ce5wBM");
+
+        public static byte[] Encrypt(string plaintext)
+        {
+            using var aes = Aes.Create();
+            aes.Key = _key;
+            aes.IV = _iv;
+            aes.Mode = CipherMode.CBC;
+            aes.Padding = PaddingMode.PKCS7;
+
+            using var ms = new MemoryStream();
+            using (var cs = new CryptoStream(ms, aes.CreateEncryptor(), CryptoStreamMode.Write))
+            using (var writer = new StreamWriter(cs))
+            {
+                writer.Write(plaintext);
+            }
+
+            return ms.ToArray();
+        }
+
+        public static string Decrypt(byte[] ciphertext)
+        {
+            using var aes = Aes.Create();
+            aes.Key = _key;
+            aes.IV = _iv;
+            aes.Mode = CipherMode.CBC;
+            aes.Padding = PaddingMode.PKCS7;
+
+            using var ms = new MemoryStream(ciphertext);
+            using var cs = new CryptoStream(ms, aes.CreateDecryptor(), CryptoStreamMode.Read);
+            using var reader = new StreamReader(cs);
+            return reader.ReadToEnd();
+        }
+    }
+}

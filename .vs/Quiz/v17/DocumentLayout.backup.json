@@ -1,75 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{835F866A-7234-4499-9889-269C8684DCE7}|QuizApp.Models\\QuizApp.Models.csproj|v:\\polsl\\zsi\\m03\\quiz-app\\quiz\\quizapp.models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{835F866A-7234-4499-9889-269C8684DCE7}|QuizApp.Models\\QuizApp.Models.csproj|solutionrelative:quizapp.models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{835F866A-7234-4499-9889-269C8684DCE7}|QuizApp.Models\\QuizApp.Models.csproj|v:\\polsl\\zsi\\m03\\quiz-app\\quiz\\quizapp.models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{835F866A-7234-4499-9889-269C8684DCE7}|QuizApp.Models\\QuizApp.Models.csproj|solutionrelative:quizapp.models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{835F866A-7234-4499-9889-269C8684DCE7}|QuizApp.Models\\QuizApp.Models.csproj|v:\\polsl\\zsi\\m03\\quiz-app\\quiz\\quizapp.models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{835F866A-7234-4499-9889-269C8684DCE7}|QuizApp.Models\\QuizApp.Models.csproj|solutionrelative:quizapp.models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 170,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Answer.cs",
-              "DocumentMoniker": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Models\\Answer.cs",
-              "RelativeDocumentMoniker": "QuizApp.Models\\Answer.cs",
-              "ToolTip": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Models\\Answer.cs",
-              "RelativeToolTip": "QuizApp.Models\\Answer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T15:58:59.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Quiz.cs",
-              "DocumentMoniker": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Models\\Quiz.cs",
-              "RelativeDocumentMoniker": "QuizApp.Models\\Quiz.cs",
-              "ToolTip": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Models\\Quiz.cs",
-              "RelativeToolTip": "QuizApp.Models\\Quiz.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T15:59:04.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Question.cs",
-              "DocumentMoniker": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Models\\Question.cs",
-              "RelativeDocumentMoniker": "QuizApp.Models\\Question.cs",
-              "ToolTip": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Models\\Question.cs",
-              "RelativeToolTip": "QuizApp.Models\\Question.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T15:59:03.935Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
