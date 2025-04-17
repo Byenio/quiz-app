@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32DA513E-AB0A-4D9A-9D58-043FC0486000}|QuizApp.Generator\\QuizApp.Generator.csproj|v:\\polsl\\zsi\\m03\\quiz-app\\quiz\\quizapp.generator\\services\\encryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32DA513E-AB0A-4D9A-9D58-043FC0486000}|QuizApp.Generator\\QuizApp.Generator.csproj|solutionrelative:quizapp.generator\\services\\encryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 122,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EncryptionService.cs",
+              "DocumentMoniker": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\Services\\EncryptionService.cs",
+              "RelativeDocumentMoniker": "QuizApp.Generator\\Services\\EncryptionService.cs",
+              "ToolTip": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\Services\\EncryptionService.cs",
+              "RelativeToolTip": "QuizApp.Generator\\Services\\EncryptionService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T16:12:21.738Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
