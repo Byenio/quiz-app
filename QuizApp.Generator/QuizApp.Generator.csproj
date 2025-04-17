@@ -8,4 +8,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\QuizApp.Models\QuizApp.Models.csproj" />
+  </ItemGroup>
+
 </Project>

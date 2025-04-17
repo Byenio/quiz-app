@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0-windows7.0": {}
+    "net9.0-windows7.0": {
+      "QuizApp.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/QuizApp.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QuizApp.Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "QuizApp.Models/1.0.0": {
+      "type": "project",
+      "path": "../QuizApp.Models/QuizApp.Models.csproj",
+      "msbuildProject": "../QuizApp.Models/QuizApp.Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0-windows7.0": []
+    "net9.0-windows7.0": [
+      "QuizApp.Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\marce\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Models\\QuizApp.Models.csproj": {
+              "projectPath": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Models\\QuizApp.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
