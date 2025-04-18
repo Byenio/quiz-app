@@ -1,0 +1,114 @@
+﻿<Page x:Class="QuizApp.Generator.Views.QuestionEditor"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:QuizApp.Generator.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="420" d:DesignWidth="700"
+      Title="QuestionEditor">
+    <Grid Margin="40, 0, 20, 0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="5*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="4*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="QuestionNumber" Text="{Binding QuestionText, StringFormat='Question: {0}'}" Grid.Row="0"
+                   FontSize="20" FontWeight="SemiBold" VerticalAlignment="Center" HorizontalAlignment="Center"
+                   TextWrapping="Wrap"/>
+
+        <TextBox x:Name="QuestionTextBox" Grid.Row="1" Margin="10, 10, 30, 10"
+                 FontSize="16" FontWeight="SemiBold" TextWrapping="Wrap" MaxLength="256"
+                 Text="{Binding QuestionText, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <Grid x:Name="QuestionPointsGrid" Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="8*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="Question points:" Grid.Column="0" Margin="10, 0, 0, 0"
+                       VerticalAlignment="Center" FontSize="12" FontWeight="SemiBold"/>
+            <TextBox x:Name="QuestionPoints" Grid.Column="1" Margin="0, 10, 400, 10"
+                     VerticalContentAlignment="Center"
+                     Text="{Binding QuestionPoints, UpdateSourceTrigger=PropertyChanged}"/>
+        </Grid>
+
+        <Grid x:Name="AnswerTitleBar" Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="9*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Correct" Grid.Column="0" Foreground="DimGray" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+            <TextBlock Text="Answer" Grid.Column="1" Foreground="DimGray" Margin="10, 0, 0, 0" VerticalAlignment="Bottom"/>
+        </Grid>
+
+        <Grid x:Name="AnswerAGrid" Grid.Row="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="9*"/>
+            </Grid.ColumnDefinitions>
+            <CheckBox x:Name="AnswerAIsCorrect" HorizontalAlignment="Center" VerticalAlignment="Center"
+                      IsChecked="{Binding Answers[0].IsCorrect}"/>
+            <TextBox x:Name="AnswerATextBox" Grid.Column="1" VerticalContentAlignment="Center"
+                     Margin="10, 10, 30, 10" FontSize="16" FontWeight="SemiBold" TextWrapping="Wrap" MaxLength="48"
+                     Text="{Binding Answers[0].Text, UpdateSourceTrigger=PropertyChanged}"/>
+        </Grid>
+
+        <Grid x:Name="AnswerBGrid" Grid.Row="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="9*"/>
+            </Grid.ColumnDefinitions>
+            <CheckBox x:Name="AnswerBIsCorrect" HorizontalAlignment="Center" VerticalAlignment="Center"
+                      IsChecked="{Binding Answers[1].IsCorrect}"/>
+            <TextBox x:Name="AnswerBTextBox" Grid.Column="1" VerticalContentAlignment="Center"
+                     Margin="10, 10, 30, 10" FontSize="16" FontWeight="SemiBold" TextWrapping="Wrap" MaxLength="48"
+                     Text="{Binding Answers[1].Text, UpdateSourceTrigger=PropertyChanged}"/>
+        </Grid>
+
+        <Grid x:Name="AnswerCGrid" Grid.Row="6">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="9*"/>
+            </Grid.ColumnDefinitions>
+            <CheckBox x:Name="AnswerCIsCorrect" HorizontalAlignment="Center" VerticalAlignment="Center"
+                      IsChecked="{Binding Answers[2].IsCorrect}"/>
+            <TextBox x:Name="AnswerCTextBox" Grid.Column="1" VerticalContentAlignment="Center"
+                     Margin="10, 10, 30, 10" FontSize="16" FontWeight="SemiBold" TextWrapping="Wrap" MaxLength="48"
+                     Text="{Binding Answers[2].Text, UpdateSourceTrigger=PropertyChanged}"/>
+        </Grid>
+
+        <Grid x:Name="AnswerDGrid" Grid.Row="7">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="9*"/>
+            </Grid.ColumnDefinitions>
+            <CheckBox x:Name="AnswerDIsCorrect" HorizontalAlignment="Center" VerticalAlignment="Center"
+                      IsChecked="{Binding Answers[3].IsCorrect}"/>
+            <TextBox x:Name="AnswerDTextBox" Grid.Column="1" VerticalContentAlignment="Center"
+                     Margin="10, 10, 30, 10" FontSize="16" FontWeight="SemiBold" TextWrapping="Wrap" MaxLength="48"
+                     Text="{Binding Answers[3].Text, UpdateSourceTrigger=PropertyChanged}"/>
+        </Grid>
+
+        <Grid x:Name="AnswerButtonGrid" Grid.Row="8">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="SaveQuestion" Content="Save" HorizontalAlignment="Right" Grid.Column="0"
+                    Margin="0, 40, 20, 30" Width="140" FontSize="16" FontWeight="Bold"
+                    Command="{Binding SaveQuestionCommand}"/>
+            <Button x:Name="CancelQuestion" Content="Cancel" HorizontalAlignment="Left" Grid.Column="1"
+                    Margin="20, 40, 0, 30" Width="140" FontSize="16" FontWeight="Bold"
+                    Command="{Binding CancelQuestionCommand}"/>
+        </Grid>
+    </Grid>
+</Page>
