@@ -1,12 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32DA513E-AB0A-4D9A-9D58-043FC0486000}|QuizApp.Generator\\QuizApp.Generator.csproj|v:\\polsl\\zsi\\m03\\quiz-app\\quiz\\quizapp.generator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{32DA513E-AB0A-4D9A-9D58-043FC0486000}|QuizApp.Generator\\QuizApp.Generator.csproj|solutionrelative:quizapp.generator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 122,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "QuizApp.Generator\\MainWindow.xaml",
+              "ToolTip": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\MainWindow.xaml",
+              "RelativeToolTip": "QuizApp.Generator\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-18T10:54:19.23Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

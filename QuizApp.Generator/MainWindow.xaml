@@ -5,8 +5,62 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuizApp.Generator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Quiz Generator" Height="620" Width="1020">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*" />
+            <ColumnDefinition Width="7*" />
+        </Grid.ColumnDefinitions>
 
+        <Grid x:Name="QuizInfoGrid" Grid.Column="0" Margin="0, 120">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="4*" />
+                <RowDefinition Height="2*" />
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="Quiz name:" FontSize="16" FontWeight="Bold" Grid.Row="0" />
+            <TextBox x:Name="QuizName"
+                     Grid.Row="0"
+                     Margin="0, 30, 0, 15"
+                     Text="{Binding QuizName, UpdateSourceTrigger=PropertyChanged}"
+                     FontSize="16"
+                     FontWeight="SemiBold"
+                     MaxLength="32"/>
+
+            <TextBlock Text="Quiz description:" FontSize="16" FontWeight="Bold" Grid.Row="1" />
+            <TextBox x:Name="QuizDescription"
+                 Grid.Row="1"
+                 Margin="0, 30, 0, 60"
+                 Text="{Binding QuizDescription, UpdateSourceTrigger=PropertyChanged}"
+                 FontSize="16"
+                 FontWeight="SemiBold"
+                 ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                 TextWrapping="Wrap"
+                 MaxLength="128" />
+
+            <Grid x:Name="FileServiceGrid" Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="SaveFile" Content="Save" HorizontalAlignment="Center" Grid.Column="0"
+                    Margin="0, 25, 0, 25"
+                    Width="100"
+                    Click="SaveQuiz_Click"
+                    FontSize="16"
+                    FontWeight="Bold" />
+
+                <Button x:Name="LoadFile" Content="Load" HorizontalAlignment="Center" Grid.Column="1"
+                    Margin="0, 25, 0, 25"
+                    Width="100"
+                    Click="LoadQuiz_Click"
+                    FontSize="16"
+                    FontWeight="Bold" />
+            </Grid>
+        </Grid>
+
+        <Frame x:Name="ContentGrid" Grid.Column="1" NavigationUIVisibility="Hidden" />
     </Grid>
 </Window>
