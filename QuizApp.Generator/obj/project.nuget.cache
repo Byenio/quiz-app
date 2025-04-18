@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Y3UipuUWyeQ=",
+  "dgSpecHash": "zHBrbq28XjI=",
   "success": true,
   "projectFilePath": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\QuizApp.Generator.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\marce\\.nuget\\packages\\dotenv.net\\3.2.1\\dotenv.net.3.2.1.nupkg.sha512"
+  ],
   "logs": []
 }
