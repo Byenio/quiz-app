@@ -1,5 +1,4 @@
-﻿using Microsoft.Win32;
-using QuizApp.Model;
+﻿using QuizApp.Model;
 using System.IO;
 using System.Text.Json;
 
@@ -7,50 +6,49 @@ namespace QuizApp.Generator.Services
 {
     public static class FileService
     {
-        public static void SaveQuiz(Quiz quiz)
+        public static void SaveQuiz(Quiz quiz, string filePath)
         {
-            var saveFileDialog = new SaveFileDialog
-            {
-                Filter = "Quiz files (*.quiz)|*.quiz",
-                DefaultExt = "quiz"
-            };
+            if (string.IsNullOrEmpty(filePath))
+                throw new ArgumentNullException(nameof(filePath));
 
-            if (saveFileDialog.ShowDialog() == true)
+            try
             {
-                try
-                {
-                    var json = JsonSerializer.Serialize(quiz, new JsonSerializerOptions { WriteIndented = true });
-                    var encryptedData = EncryptionService.Encrypt(json);
-                    File.WriteAllBytes(saveFileDialog.FileName, encryptedData);
-                }
-                catch (Exception ex)
-                {
-                    throw new IOException("Failed to save quiz.", ex);
-                }
+                var json = JsonSerializer.Serialize(quiz, new JsonSerializerOptions { WriteIndented = true });
+                var encryptedData = EncryptionService.Encrypt(json);
+                File.WriteAllBytes(filePath, encryptedData);
+            }
+            catch (JsonException ex)
+            {
+                throw new IOException("Failed to serialize quiz data.", ex);
+            }
+            catch (IOException ex)
+            {
+                throw new IOException("Failed to write quiz file.", ex);
             }
         }
 
-        public static Quiz LoadQuiz()
+        public static Quiz LoadQuiz(string filePath)
         {
-            var openFileDialog = new OpenFileDialog
+            if (string.IsNullOrEmpty(filePath))
+                throw new ArgumentNullException(nameof(filePath));
+
+            try
             {
-                Filter = "Quiz files (*.quiz)|*.quiz"
-            };
-
-            if (openFileDialog.ShowDialog() == true) { 
-                try
-                {
-                    var encrypted = File.ReadAllBytes(openFileDialog.FileName);
-                    var json = EncryptionService.Decrypt(encrypted);
-                    return JsonSerializer.Deserialize<Quiz>(json);
-                }
-                catch (Exception ex)
-                {
-                    throw new IOException("Failed to load quiz.", ex);
-                }
+                var encrypted = File.ReadAllBytes(filePath);
+                var json = EncryptionService.Decrypt(encrypted);
+                var quiz = JsonSerializer.Deserialize<Quiz>(json);
+                if (quiz == null)
+                    throw new IOException("Failed to deserialize quiz data.");
+                return quiz;
             }
-
-            return null;
+            catch (JsonException ex)
+            {
+                throw new IOException("Failed to deserialize quiz data.", ex);
+            }
+            catch (IOException ex)
+            {
+                throw new IOException("Failed to read quiz file.", ex);
+            }
         }
     }
 }
