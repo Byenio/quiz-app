@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR
 V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Generator\App.xaml
 316460777
 1-783576874
-10-1149189504
+17780879360
 202-76929821
 MainWindow.xaml;Views\QuestionEditor.xaml;Views\QuestionList.xaml;
 
-False
+True
 
