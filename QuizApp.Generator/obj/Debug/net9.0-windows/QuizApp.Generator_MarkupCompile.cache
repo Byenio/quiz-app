@@ -1,5 +1,5 @@
 ﻿QuizApp.Generator
-1.0.0.0
+
 
 winexe
 C#
@@ -8,13 +8,13 @@ V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Generator\obj\Debug\net9.0-windows\
 QuizApp.Generator
 none
 false
-TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+TRACE;DEBUG;NET;NET9_0;NETCOREAPP
 V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Generator\App.xaml
 316460777
 1-783576874
-16-888804710
+141017212221
 202-76929821
 MainWindow.xaml;Views\QuestionEditor.xaml;Views\QuestionList.xaml;
 
-False
+True
 

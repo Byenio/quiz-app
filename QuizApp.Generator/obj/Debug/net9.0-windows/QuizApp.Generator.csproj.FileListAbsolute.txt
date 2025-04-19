@@ -1,0 +1,8 @@
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Generator\obj\Debug\net9.0-windows\QuizApp.Generator.csproj.AssemblyReference.cache
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Generator\obj\Debug\net9.0-windows\MainWindow.g.cs
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Generator\obj\Debug\net9.0-windows\Views\QuestionEditor.g.cs
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Generator\obj\Debug\net9.0-windows\Views\QuestionList.g.cs
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Generator\obj\Debug\net9.0-windows\App.g.cs
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Generator\obj\Debug\net9.0-windows\QuizApp.Generator_Content.g.cs
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Generator\obj\Debug\net9.0-windows\QuizApp.Generator_MarkupCompile.cache
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Generator\obj\Debug\net9.0-windows\QuizApp.Generator_MarkupCompile.lref

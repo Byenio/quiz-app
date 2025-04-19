@@ -1,0 +1,12 @@
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Models\bin\Debug\net9.0\QuizApp.Models.deps.json
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Models\bin\Debug\net9.0\QuizApp.Models.dll
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Models\bin\Debug\net9.0\QuizApp.Models.pdb
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Models\obj\Debug\net9.0\QuizApp.Models.GeneratedMSBuildEditorConfig.editorconfig
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Models\obj\Debug\net9.0\QuizApp.Models.AssemblyInfoInputs.cache
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Models\obj\Debug\net9.0\QuizApp.Models.AssemblyInfo.cs
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Models\obj\Debug\net9.0\QuizApp.Models.csproj.CoreCompileInputs.cache
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Models\obj\Debug\net9.0\QuizApp.Models.sourcelink.json
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Models\obj\Debug\net9.0\QuizApp.Models.dll
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Models\obj\Debug\net9.0\refint\QuizApp.Models.dll
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Models\obj\Debug\net9.0\QuizApp.Models.pdb
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Models\obj\Debug\net9.0\ref\QuizApp.Models.dll
