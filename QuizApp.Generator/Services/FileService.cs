@@ -1,4 +1,4 @@
-﻿using QuizApp.Model;
+﻿using QuizApp.Models;
 using System.IO;
 using System.Text.Json;
 

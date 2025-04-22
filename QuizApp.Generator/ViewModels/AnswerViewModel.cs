@@ -1,5 +1,4 @@
 ﻿using QuizApp.Generator.ViewModels;
-using System.ComponentModel;
 
 public class AnswerViewModel : BaseViewModel
 {

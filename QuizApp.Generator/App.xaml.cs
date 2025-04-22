@@ -1,6 +1,4 @@
 ﻿using dotenv.net;
-using System.Configuration;
-using System.Data;
 using System.Windows;
 
 namespace QuizApp.Generator;
@@ -17,4 +15,3 @@ public partial class App : Application
         DotEnv.Load();
     }
 }
-

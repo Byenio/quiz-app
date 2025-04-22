@@ -6,11 +6,11 @@ namespace QuizApp.Generator.Services
 {
     public static class EncryptionService
     {
-        private readonly static string _keyString = Environment.GetEnvironmentVariable("ENCRYPTION_KEY");
-        private readonly static string _ivString = Environment.GetEnvironmentVariable("ENCRYPTION_IV");
+        private static readonly string _keyString = Environment.GetEnvironmentVariable("ENCRYPTION_KEY");
+        private static readonly string _ivString = Environment.GetEnvironmentVariable("ENCRYPTION_IV");
 
-        private readonly static byte[] _key = Encoding.UTF8.GetBytes(_keyString);
-        private readonly static byte[] _iv = Encoding.UTF8.GetBytes(_ivString);
+        private static readonly byte[] _key = Encoding.UTF8.GetBytes(_keyString);
+        private static readonly byte[] _iv = Encoding.UTF8.GetBytes(_ivString);
 
         public static byte[] Encrypt(string plaintext)
         {

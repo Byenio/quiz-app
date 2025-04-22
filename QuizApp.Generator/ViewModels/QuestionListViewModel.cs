@@ -1,9 +1,8 @@
 ﻿using System.Collections.ObjectModel;
-using System.ComponentModel;
 using System.Windows.Input;
 using System.Windows.Navigation;
 using QuizApp.Generator.Helpers;
-using QuizApp.Model;
+using QuizApp.Models;
 
 namespace QuizApp.Generator.ViewModels
 {

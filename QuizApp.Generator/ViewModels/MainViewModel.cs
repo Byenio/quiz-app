@@ -1,9 +1,10 @@
 ﻿using System.Windows.Input;
 using System.Windows.Navigation;
-using QuizApp.Model;
+using QuizApp.Models;
 using QuizApp.Generator.Services;
 using System.IO;
 using QuizApp.Generator.Helpers;
+using QuizApp.Generator.Services.Interfaces;
 
 namespace QuizApp.Generator.ViewModels
 {
@@ -11,15 +12,17 @@ namespace QuizApp.Generator.ViewModels
     {
         private Quiz _quiz;
         private NavigationService _navigationService;
-        private DialogService _dialogService;
+        private IDialogService _dialogService;
 
-        public MainViewModel()
+        public MainViewModel(IDialogService dialogService)
         {
-            _quiz = new Quiz(String.Empty, String.Empty);
+            _dialogService = dialogService ?? throw new ArgumentNullException(nameof(dialogService));
+            _quiz = new Quiz(string.Empty, string.Empty);
 
-            SaveFileCommand = new RelayCommand(param => SaveFile(param));
-            LoadFileCommand = new RelayCommand(param => LoadFile(param));
+            SaveQuizCommand = new RelayCommand(SaveQuiz);
+            LoadQuizCommand = new RelayCommand(LoadQuiz);
         }
+
 
         public string QuizName
         {
@@ -43,8 +46,8 @@ namespace QuizApp.Generator.ViewModels
 
         public Quiz Quiz => _quiz;
 
-        public ICommand SaveFileCommand { get; }
-        public ICommand LoadFileCommand { get; }
+        public ICommand SaveQuizCommand { get; }
+        public ICommand LoadQuizCommand { get; }
 
         public void SetNavigationService(NavigationService navigationService)
         {
@@ -52,9 +55,9 @@ namespace QuizApp.Generator.ViewModels
             _navigationService.Navigate(new Views.QuestionList { DataContext = new QuestionListViewModel(_quiz, _navigationService) });
         }
 
-        private void SaveFile(object parameter)
+        private void SaveQuiz(object parameter)
         {
-            if (string.IsNullOrEmpty(QuizName))
+            if (string.IsNullOrWhiteSpace(QuizName))
             {
                 _dialogService.ShowError("Please enter a quiz name.", "Error");
                 return;
@@ -66,8 +69,9 @@ namespace QuizApp.Generator.ViewModels
                 return;
             }
 
-            var filePath = parameter as string;
-            if (string.IsNullOrEmpty(filePath))
+            var filePath = _dialogService.ShowSaveFileDialog("Quiz files (*.quiz)|*.quiz", "quiz");
+            
+            if (string.IsNullOrWhiteSpace(filePath))
             {
                 _dialogService.ShowError("No file selected.", "Error");
                 return;
@@ -83,9 +87,10 @@ namespace QuizApp.Generator.ViewModels
             }
         }
 
-        private void LoadFile(object parameter)
+        private void LoadQuiz(object parameter)
         {
-            var filePath = parameter as string;
+            var filePath = _dialogService.ShowOpenFileDialog("Quiz files (*quiz)|*.quiz", "quiz");
+            
             if (string.IsNullOrEmpty(filePath))
             {
                 _dialogService.ShowError("No file selected.", "Error");

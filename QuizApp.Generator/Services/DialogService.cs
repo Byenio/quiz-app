@@ -1,8 +1,10 @@
 ﻿using System.Windows;
+using Microsoft.Win32;
+using QuizApp.Generator.Services.Interfaces;
 
 namespace QuizApp.Generator.Services
 {
-    public class DialogService
+    public class DialogService : IDialogService
     {
         public bool ShowConfirmation(string message, string caption)
         {
@@ -12,6 +14,27 @@ namespace QuizApp.Generator.Services
         public void ShowError(string message, string caption)
         {
             MessageBox.Show(message, caption, MessageBoxButton.OK, MessageBoxImage.Error);
+        }
+
+        public string ShowSaveFileDialog(string filter, string defaultExt)
+        {
+            var dialog = new SaveFileDialog
+            {
+                Filter = filter,
+                DefaultExt = defaultExt,
+            };
+            
+            return dialog.ShowDialog() == true ? dialog.FileName : null;
+        }
+
+        public string ShowOpenFileDialog(string filter, string defaultExt)
+        {
+            var dialog = new OpenFileDialog
+            {
+                Filter = filter
+            };
+
+            return dialog.ShowDialog() == true ? dialog.FileName : null;
         }
     }
 }

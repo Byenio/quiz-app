@@ -1,6 +1,6 @@
 ﻿using System.Windows.Input;
 using System.Windows.Navigation;
-using QuizApp.Model;
+using QuizApp.Models;
 using System.Collections.ObjectModel;
 using QuizApp.Generator.Helpers;
 
@@ -31,7 +31,7 @@ namespace QuizApp.Generator.ViewModels
             CancelQuestionCommand = new RelayCommand(param => CancelQuestion());
         }
 
-        public string QuestionNumber => _isNewQuestion ? "New Question" : $"Question {_quiz.Questions.IndexOf(_question) + 1}";
+        public string QuestionNumber => _isNewQuestion ? $"{_quiz.Questions.Count + 1}" : $"{_quiz.Questions.IndexOf(_question) + 1}";
 
         public string QuestionText
         {
