@@ -10,3 +10,15 @@ V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Models\obj\Debug\net9.0\QuizApp.Models.dl
 V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Models\obj\Debug\net9.0\refint\QuizApp.Models.dll
 V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Models\obj\Debug\net9.0\QuizApp.Models.pdb
 V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Models\obj\Debug\net9.0\ref\QuizApp.Models.dll
+D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Models\bin\Debug\net9.0\QuizApp.Models.deps.json
+D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Models\bin\Debug\net9.0\QuizApp.Models.dll
+D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Models\bin\Debug\net9.0\QuizApp.Models.pdb
+D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Models\obj\Debug\net9.0\QuizApp.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Models\obj\Debug\net9.0\QuizApp.Models.AssemblyInfoInputs.cache
+D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Models\obj\Debug\net9.0\QuizApp.Models.AssemblyInfo.cs
+D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Models\obj\Debug\net9.0\QuizApp.Models.csproj.CoreCompileInputs.cache
+D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Models\obj\Debug\net9.0\QuizApp.Models.sourcelink.json
+D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Models\obj\Debug\net9.0\QuizApp.Models.dll
+D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Models\obj\Debug\net9.0\refint\QuizApp.Models.dll
+D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Models\obj\Debug\net9.0\QuizApp.Models.pdb
+D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Models\obj\Debug\net9.0\ref\QuizApp.Models.dll

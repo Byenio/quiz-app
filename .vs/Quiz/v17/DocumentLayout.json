@@ -1,30 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\",
+  "WorkspaceRootPath": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32DA513E-AB0A-4D9A-9D58-043FC0486000}|QuizApp.Generator\\QuizApp.Generator.csproj|v:\\polsl\\zsi\\m03\\quiz-app\\quiz\\quizapp.generator\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32DA513E-AB0A-4D9A-9D58-043FC0486000}|QuizApp.Generator\\QuizApp.Generator.csproj|solutionrelative:quizapp.generator\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|d:\\github\\programowanie\\programowanie_c-\\quizapp\\quiz-app\\quizapp.slover\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|solutionrelative:quizapp.slover\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32DA513E-AB0A-4D9A-9D58-043FC0486000}|QuizApp.Generator\\QuizApp.Generator.csproj|v:\\polsl\\zsi\\m03\\quiz-app\\quiz\\quizapp.generator\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32DA513E-AB0A-4D9A-9D58-043FC0486000}|QuizApp.Generator\\QuizApp.Generator.csproj|solutionrelative:quizapp.generator\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32DA513E-AB0A-4D9A-9D58-043FC0486000}|QuizApp.Generator\\QuizApp.Generator.csproj|v:\\polsl\\zsi\\m03\\quiz-app\\quiz\\quizapp.generator\\views\\questioneditor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32DA513E-AB0A-4D9A-9D58-043FC0486000}|QuizApp.Generator\\QuizApp.Generator.csproj|solutionrelative:quizapp.generator\\views\\questioneditor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32DA513E-AB0A-4D9A-9D58-043FC0486000}|QuizApp.Generator\\QuizApp.Generator.csproj|v:\\polsl\\zsi\\m03\\quiz-app\\quiz\\quizapp.generator\\views\\questionlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32DA513E-AB0A-4D9A-9D58-043FC0486000}|QuizApp.Generator\\QuizApp.Generator.csproj|solutionrelative:quizapp.generator\\views\\questionlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32DA513E-AB0A-4D9A-9D58-043FC0486000}|QuizApp.Generator\\QuizApp.Generator.csproj|v:\\polsl\\zsi\\m03\\quiz-app\\quiz\\quizapp.generator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32DA513E-AB0A-4D9A-9D58-043FC0486000}|QuizApp.Generator\\QuizApp.Generator.csproj|solutionrelative:quizapp.generator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32DA513E-AB0A-4D9A-9D58-043FC0486000}|QuizApp.Generator\\QuizApp.Generator.csproj|v:\\polsl\\zsi\\m03\\quiz-app\\quiz\\quizapp.generator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{32DA513E-AB0A-4D9A-9D58-043FC0486000}|QuizApp.Generator\\QuizApp.Generator.csproj|solutionrelative:quizapp.generator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|d:\\github\\programowanie\\programowanie_c-\\quizapp\\quiz-app\\quizapp.slover\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|solutionrelative:quizapp.slover\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,79 +27,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FileService.cs",
-              "DocumentMoniker": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\Services\\FileService.cs",
-              "RelativeDocumentMoniker": "QuizApp.Generator\\Services\\FileService.cs",
-              "ToolTip": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\Services\\FileService.cs",
-              "RelativeToolTip": "QuizApp.Generator\\Services\\FileService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwDUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T12:09:06.181Z",
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "QuizApp.Slover\\MainWindow.xaml",
+              "ToolTip": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\MainWindow.xaml",
+              "RelativeToolTip": "QuizApp.Slover\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-24T13:38:27.989Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "QuizApp.Generator\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "QuizApp.Generator\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAwwGAAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T12:08:37.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "QuestionEditor.xaml.cs",
-              "DocumentMoniker": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\Views\\QuestionEditor.xaml.cs",
-              "RelativeDocumentMoniker": "QuizApp.Generator\\Views\\QuestionEditor.xaml.cs",
-              "ToolTip": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\Views\\QuestionEditor.xaml.cs",
-              "RelativeToolTip": "QuizApp.Generator\\Views\\QuestionEditor.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T12:08:02.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "QuestionList.xaml.cs",
-              "DocumentMoniker": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\Views\\QuestionList.xaml.cs",
-              "RelativeDocumentMoniker": "QuizApp.Generator\\Views\\QuestionList.xaml.cs",
-              "ToolTip": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\Views\\QuestionList.xaml.cs",
-              "RelativeToolTip": "QuizApp.Generator\\Views\\QuestionList.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T12:07:35.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "QuizApp.Generator\\MainWindow.xaml.cs",
-              "ToolTip": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\MainWindow.xaml.cs",
-              "RelativeToolTip": "QuizApp.Generator\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "QuizApp.Slover\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\MainWindow.xaml.cs",
+              "RelativeToolTip": "QuizApp.Slover\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T12:07:05.817Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "QuizApp.Generator\\MainWindow.xaml",
-              "ToolTip": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\MainWindow.xaml",
-              "RelativeToolTip": "QuizApp.Generator\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-19T12:07:01.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T13:38:27.058Z"
             }
           ]
         }
