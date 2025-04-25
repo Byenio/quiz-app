@@ -11,7 +11,8 @@ namespace QuizApp.Generator
             InitializeComponent();
             
             var dialogService = new DialogService();
-            var viewModel = new MainViewModel(dialogService);
+            var fileService = new FileService();
+            var viewModel = new MainViewModel(dialogService, fileService);
 
             DataContext = viewModel;
             Loaded += (s, e) => viewModel.SetNavigationService(ContentGrid.NavigationService);
