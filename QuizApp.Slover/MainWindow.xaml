@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:QuizApp.Slover"
+        xmlns:local="clr-namespace:QuizApp.Slover" xmlns:local1="clr-namespace:QuizApp.Slover.Views"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
@@ -22,22 +22,11 @@
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
             
-            <Button Name="btnFileInput" Content="Wczytaj quiz" Width="100" Grid.Column="0" Command="{Binding LoadQuizCommand}"/>
-            <Button Name="btnStartQuiz" Content="Rozpocznij quiz" Width="100" Grid.Column="1"/>
-            <Button Name="btnEndQuiz" Content="Zakończ quiz" Width="100" Grid.Column="2"/>
+            <Button x:Name="btnFileInput" Content="Wczytaj quiz" Width="100" Grid.Column="0" Command="{Binding LoadQuizCommand}"/>
+            <Button x:Name="btnStartQuiz" Content="Rozpocznij quiz" Width="100" Grid.Column="1" Command="{Binding StartQuizCommand}"/>
+            <Button x:Name="btnEndQuiz" Content="Zakończ quiz" Width="100" Grid.Column="2"/>
         </Grid>
-        <StackPanel Grid.Row="2">
-            <TextBlock x:Name="txtQuestionCounter" Text="Pytanie x z y:" FontSize="20"/>
-            <TextBlock x:Name="txtQuestion" Text="Pytanie" FontSize="18"/>
-            <CheckBox x:Name="checkAnswer1" Content="Odpowiedź 1" FontSize="18" Margin="10"/>
-            <CheckBox x:Name="checkAnswer2" Content="Odpowiedź 2" FontSize="18" Margin="10"/>
-            <CheckBox x:Name="checkAnswer3" Content="Odpowiedź 3" FontSize="18" Margin="10"/>
-            <CheckBox x:Name="checkAnswer4" Content="Odpowiedź 4" FontSize="18" Margin="10"/>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
-                <Button x:Name="btnPrevious" Content="Poprzednie pytanie" Width="150"/>
-                <Button x:Name="btnNext" Content="Następne pytanie" Width="150" Margin="10,0,0,0"/>
-            </StackPanel>
-        </StackPanel>
+        <Frame x:Name="QuizFrame" Grid.Row="2" NavigationUIVisibility="Hidden" Visibility="{Binding isQuizVisible}"/>
         <TextBlock Grid.Row="4" x:Name="txtTimer" Text="Czas: " FontSize="18"/>
     </Grid>
 </Window>

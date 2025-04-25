@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP
 D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Slover\App.xaml
-11407045341
+3-1163429952
 1-783576874
-11-1285734290
+15-803539083
 207277795393
-MainWindow.xaml;
+MainWindow.xaml;Views\QuizInfoView.xaml;Views\QuizView.xaml;
 
 False
 

@@ -15,14 +15,22 @@ namespace QuizApp.Slover.ViewModels
 {
     public class MainViewModel : BaseViewModel
     {
+        public object CurrentView { get; set; }
+
         private Quiz _quiz;
         private IDialogService _dialogService;
-        public RelayCommand LoadQuizCommand => new RelayCommand(execute => LoadQuiz());
+        private NavigationService _navigationService;
+        private bool _isQuizLoaded;
+        private bool _isQuizStarted;
+
+        public RelayCommand LoadQuizCommand => new RelayCommand(execute => LoadQuiz(), canExecute=> _isQuizLoaded == false);
+        public RelayCommand StartQuizCommand => new RelayCommand(execute => StartQuiz(), canExecute => _isQuizLoaded == true && _isQuizStarted == false);
 
         public MainViewModel(IDialogService dialogService)
         {
             _dialogService = dialogService ?? throw new ArgumentNullException(nameof(dialogService));
             _quiz = new Quiz(string.Empty, string.Empty);
+            _isQuizLoaded = false;
         }
 
         public string QuizName
@@ -46,6 +54,15 @@ namespace QuizApp.Slover.ViewModels
         }
 
         public Quiz Quiz => _quiz;
+
+        public void SetNavigationService(NavigationService navigationService, string where)
+        {
+            _navigationService = navigationService;
+            if (where == "Quiz")
+                _navigationService.Navigate(new Views.QuizView { DataContext = new QuizViewModel(_quiz, _navigationService) });
+            else if (where == "QuizInfo")
+                _navigationService.Navigate(new Views.QuizInfoView { DataContext = new QuizInfoViewModel(_quiz, _navigationService) });
+        }
 
         private void LoadQuiz()
         {
@@ -72,6 +89,15 @@ namespace QuizApp.Slover.ViewModels
             {
                 _dialogService.ShowError($"Error loading quiz: {ex.Message}", "Error");
             }
+            _isQuizLoaded = true;
+            SetNavigationService(_navigationService,"QuizInfo");
+
+        }
+
+        private void StartQuiz()
+        {
+            SetNavigationService(_navigationService, "Quiz");
+            _isQuizStarted = true;
         }
     }
 }

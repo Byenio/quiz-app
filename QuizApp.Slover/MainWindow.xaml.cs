@@ -11,6 +11,7 @@ using System.Windows.Shapes;
 using QuizApp.Slover.Services;
 using QuizApp.Slover.ViewModels;
 using QuizApp.Slover.Helpers;
+using QuizApp.Slover.Views;
 
 namespace QuizApp.Slover;
 
@@ -24,6 +25,8 @@ public partial class MainWindow : Window
         var viewModel = new MainViewModel(dialogService);
 
         DataContext = viewModel;
+        Loaded += (s, e) => viewModel.SetNavigationService(QuizFrame.NavigationService,"QuizInfo");
+
     }
 
 }
