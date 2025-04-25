@@ -13,10 +13,12 @@ namespace QuizApp.Generator.ViewModels
         private Quiz _quiz;
         private NavigationService _navigationService;
         private IDialogService _dialogService;
+        private IFileService _fileService;
 
-        public MainViewModel(IDialogService dialogService)
+        public MainViewModel(IDialogService dialogService, IFileService fileService)
         {
             _dialogService = dialogService ?? throw new ArgumentNullException(nameof(dialogService));
+            _fileService = fileService ?? throw new ArgumentNullException(nameof(fileService));
             _quiz = new Quiz(string.Empty, string.Empty);
 
             SaveQuizCommand = new RelayCommand(SaveQuiz);
@@ -79,7 +81,7 @@ namespace QuizApp.Generator.ViewModels
 
             try
             {
-                FileService.SaveQuiz(_quiz, filePath);
+                _fileService.SaveQuiz(_quiz, filePath);
             }
             catch (IOException ex)
             {
@@ -99,7 +101,7 @@ namespace QuizApp.Generator.ViewModels
 
             try
             {
-                var quiz = FileService.LoadQuiz(filePath);
+                var quiz = _fileService.LoadQuiz(filePath);
                 _quiz.Questions.Clear();
                 foreach (var question in quiz.Questions)
                 {
