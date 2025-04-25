@@ -6,7 +6,17 @@
       xmlns:local="clr-namespace:QuizApp.Generator.Views"
       mc:Ignorable="d" 
       d:DesignHeight="420" d:DesignWidth="700"
-      Title="QuestionList">
+      Title="QuestionList"
+      Background="#0C0C0C" Foreground="#FAF9F6">
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -28,7 +38,7 @@
                             </Grid.ColumnDefinitions>
                             <Border BorderBrush="Gray" BorderThickness="1" Padding="10" Grid.Column="0">
                                 <StackPanel>
-                                    <TextBlock Text="{Binding Text}" FontSize="16" FontWeight="SemiBold" TextWrapping="Wrap"/>
+                                    <TextBlock Text="{Binding Text}" FontSize="16" FontWeight="SemiBold" TextWrapping="NoWrap" Width="540" HorizontalAlignment="Left"/>
                                     <TextBlock Text="{Binding Points, StringFormat='Points: {0}'}" FontSize="12" Foreground="Gray"/>
                                 </StackPanel>
                             </Border>

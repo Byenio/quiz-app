@@ -5,7 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuizApp.Generator"
         mc:Ignorable="d"
-        Title="Quiz Generator" Height="620" Width="1020">
+        Title="Quiz Generator" Height="620" Width="1020"
+        Background="#0C0C0C" Foreground="#FAF9F6">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    
     <Grid Margin="10">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="3*" />
@@ -19,22 +28,19 @@
                 <RowDefinition Height="2*" />
             </Grid.RowDefinitions>
 
-            <TextBlock Text="Quiz name:" FontSize="16" FontWeight="Bold" Grid.Row="0" />
+            <TextBlock Text="Quiz name:" Grid.Row="0" />
             <TextBox x:Name="QuizName"
                      Grid.Row="0"
                      Margin="0, 30, 0, 15"
                      Text="{Binding QuizName, UpdateSourceTrigger=PropertyChanged}"
-                     FontSize="16"
-                     FontWeight="SemiBold"
-                     MaxLength="32"/>
+                     MaxLength="32"
+                     VerticalContentAlignment="Center"/>
 
-            <TextBlock Text="Quiz description:" FontSize="16" FontWeight="Bold" Grid.Row="1" />
+            <TextBlock Text="Quiz description:" Grid.Row="1" />
             <TextBox x:Name="QuizDescription"
                  Grid.Row="1"
-                 Margin="0, 30, 0, 60"
+                 Margin="0, 40, 0, 50"
                  Text="{Binding QuizDescription, UpdateSourceTrigger=PropertyChanged}"
-                 FontSize="16"
-                 FontWeight="SemiBold"
                  ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                  TextWrapping="Wrap"
                  MaxLength="128" />
