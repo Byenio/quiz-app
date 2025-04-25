@@ -8,16 +8,22 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using QuizApp.Slover.Services;
+using QuizApp.Slover.ViewModels;
+using QuizApp.Slover.Helpers;
 
 namespace QuizApp.Slover;
 
-/// <summary>
-/// Interaction logic for MainWindow.xaml
-/// </summary>
 public partial class MainWindow : Window
 {
     public MainWindow()
     {
         InitializeComponent();
+
+        var dialogService = new DialogService();
+        var viewModel = new MainViewModel(dialogService);
+
+        DataContext = viewModel;
     }
+
 }

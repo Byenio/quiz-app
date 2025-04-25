@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|d:\\github\\programowanie\\programowanie_c-\\quizapp\\quiz-app\\quizapp.slover\\services\\encryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|solutionrelative:quizapp.slover\\services\\encryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|d:\\github\\programowanie\\programowanie_c-\\quizapp\\quiz-app\\quizapp.slover\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|solutionrelative:quizapp.slover\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|d:\\github\\programowanie\\programowanie_c-\\quizapp\\quiz-app\\quizapp.slover\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|solutionrelative:quizapp.slover\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|d:\\github\\programowanie\\programowanie_c-\\quizapp\\quiz-app\\quizapp.slover\\services\\dialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|solutionrelative:quizapp.slover\\services\\dialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|d:\\github\\programowanie\\programowanie_c-\\quizapp\\quiz-app\\quizapp.slover\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|solutionrelative:quizapp.slover\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|d:\\github\\programowanie\\programowanie_c-\\quizapp\\quiz-app\\quizapp.slover\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|solutionrelative:quizapp.slover\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -21,12 +41,77 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DialogService.cs",
+              "DocumentMoniker": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\Services\\DialogService.cs",
+              "RelativeDocumentMoniker": "QuizApp.Slover\\Services\\DialogService.cs",
+              "ToolTip": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\Services\\DialogService.cs",
+              "RelativeToolTip": "QuizApp.Slover\\Services\\DialogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:26:28.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EncryptionService.cs",
+              "DocumentMoniker": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\Services\\EncryptionService.cs",
+              "RelativeDocumentMoniker": "QuizApp.Slover\\Services\\EncryptionService.cs",
+              "ToolTip": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\Services\\EncryptionService.cs",
+              "RelativeToolTip": "QuizApp.Slover\\Services\\EncryptionService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAEwBEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:24:36.272Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "QuizApp.Slover\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "QuizApp.Slover\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAvwBEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:53:36.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\Helpers\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "QuizApp.Slover\\Helpers\\RelayCommand.cs",
+              "ToolTip": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\Helpers\\RelayCommand.cs",
+              "RelativeToolTip": "QuizApp.Slover\\Helpers\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:46:56.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "QuizApp.Slover\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\MainWindow.xaml.cs",
+              "RelativeToolTip": "QuizApp.Slover\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:38:27.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\MainWindow.xaml",
               "RelativeDocumentMoniker": "QuizApp.Slover\\MainWindow.xaml",
@@ -39,14 +124,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "QuizApp.Slover\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\MainWindow.xaml.cs",
-              "RelativeToolTip": "QuizApp.Slover\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "FileService.cs",
+              "DocumentMoniker": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\Services\\FileService.cs",
+              "RelativeDocumentMoniker": "QuizApp.Slover\\Services\\FileService.cs",
+              "ToolTip": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\Services\\FileService.cs",
+              "RelativeToolTip": "QuizApp.Slover\\Services\\FileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:38:27.058Z"
+              "WhenOpened": "2025-04-25T10:03:12.371Z",
+              "EditorCaption": ""
             }
           ]
         }

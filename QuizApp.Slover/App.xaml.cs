@@ -1,5 +1,4 @@
-﻿using System.Configuration;
-using System.Data;
+﻿using dotenv.net;
 using System.Windows;
 
 namespace QuizApp.Slover;
@@ -9,5 +8,10 @@ namespace QuizApp.Slover;
 /// </summary>
 public partial class App : Application
 {
-}
+    protected override void OnStartup(StartupEventArgs e)
+    {
+        base.OnStartup(e);
 
+        DotEnv.Load();
+    }
+}

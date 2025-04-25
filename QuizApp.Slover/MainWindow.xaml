@@ -22,7 +22,7 @@
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
             
-            <Button Name="btnFileInput" Content="Wczytaj quiz" Width="100" Grid.Column="0"/>
+            <Button Name="btnFileInput" Content="Wczytaj quiz" Width="100" Grid.Column="0" Command="{Binding LoadQuizCommand}"/>
             <Button Name="btnStartQuiz" Content="Rozpocznij quiz" Width="100" Grid.Column="1"/>
             <Button Name="btnEndQuiz" Content="Zakończ quiz" Width="100" Grid.Column="2"/>
         </Grid>
