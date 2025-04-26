@@ -10,6 +10,8 @@ using QuizApp.Slover.Services.Interfaces;
 using System.IO;
 using System.Windows.Navigation;
 using System.Windows.Input;
+using System.Collections.ObjectModel;
+using System.Windows;
 
 namespace QuizApp.Slover.ViewModels
 {
@@ -18,18 +20,24 @@ namespace QuizApp.Slover.ViewModels
         public object CurrentView { get; set; }
 
         private Quiz _quiz;
+        private ObservableCollection<Question> _questions;
         private IDialogService _dialogService;
         private NavigationService _navigationService;
         private bool _isQuizLoaded;
         private bool _isQuizStarted;
 
+        public QuizViewModel QuizVM { get; set; }
+
+
         public RelayCommand LoadQuizCommand => new RelayCommand(execute => LoadQuiz(), canExecute=> _isQuizLoaded == false);
         public RelayCommand StartQuizCommand => new RelayCommand(execute => StartQuiz(), canExecute => _isQuizLoaded == true && _isQuizStarted == false);
+        public RelayCommand CheckQuizCommand => new RelayCommand(execute => QuizVM.CheckQuiz(), canExecute => _isQuizStarted == true);
 
         public MainViewModel(IDialogService dialogService)
         {
             _dialogService = dialogService ?? throw new ArgumentNullException(nameof(dialogService));
             _quiz = new Quiz(string.Empty, string.Empty);
+            _questions = new ObservableCollection<Question>(_quiz.Questions);
             _isQuizLoaded = false;
         }
 
@@ -53,13 +61,26 @@ namespace QuizApp.Slover.ViewModels
             }
         }
 
+        public ObservableCollection<Question> Questions
+        {
+            get => _questions;
+            set
+            {
+                _questions = value;
+                OnPropertyChanged(nameof(Questions));
+            }
+        }
+
         public Quiz Quiz => _quiz;
 
         public void SetNavigationService(NavigationService navigationService, string where)
         {
             _navigationService = navigationService;
             if (where == "Quiz")
-                _navigationService.Navigate(new Views.QuizView { DataContext = new QuizViewModel(_quiz, _navigationService) });
+            {
+                QuizVM = new QuizViewModel(_quiz, _navigationService);
+                _navigationService.Navigate(new Views.QuizView { DataContext = QuizVM });
+            }
             else if (where == "QuizInfo")
                 _navigationService.Navigate(new Views.QuizInfoView { DataContext = new QuizInfoViewModel(_quiz, _navigationService) });
         }
@@ -76,6 +97,7 @@ namespace QuizApp.Slover.ViewModels
 
             try
             {
+
                 var quiz = FileService.LoadQuiz(filePath);
                 _quiz.Questions.Clear();
                 foreach (var question in quiz.Questions)
@@ -99,5 +121,7 @@ namespace QuizApp.Slover.ViewModels
             SetNavigationService(_navigationService, "Quiz");
             _isQuizStarted = true;
         }
+
+
     }
 }

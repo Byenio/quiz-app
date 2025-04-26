@@ -15,10 +15,10 @@
                     <DataTemplate>
                         <StackPanel>
                             <TextBlock x:Name="txtQuestion" Text="{Binding Text}" FontSize="18"/>
-                            <CheckBox x:Name="checkAnswer1" Content="{Binding Answers[0].Text}" FontSize="18" Margin="10"/>
-                            <CheckBox x:Name="checkAnswer2" Content="{Binding Answers[1].Text}" FontSize="18" Margin="10"/>
-                            <CheckBox x:Name="checkAnswer3" Content="{Binding Answers[2].Text}" FontSize="18" Margin="10"/>
-                            <CheckBox x:Name="checkAnswer4" Content="{Binding Answers[3].Text}" FontSize="18" Margin="10"/>
+                            <CheckBox x:Name="checkAnswer1" Content="{Binding Answers[0].Text}" IsChecked="{Binding Answers[0].IsSelected, Mode=TwoWay}" FontSize="18" Margin="10"/>
+                            <CheckBox x:Name="checkAnswer2" Content="{Binding Answers[1].Text}" IsChecked="{Binding Answers[1].IsSelected, Mode=TwoWay}" FontSize="18" Margin="10"/>
+                            <CheckBox x:Name="checkAnswer3" Content="{Binding Answers[2].Text}" IsChecked="{Binding Answers[2].IsSelected, Mode=TwoWay}" FontSize="18" Margin="10"/>
+                            <CheckBox x:Name="checkAnswer4" Content="{Binding Answers[3].Text}" IsChecked="{Binding Answers[3].IsSelected, Mode=TwoWay}" FontSize="18" Margin="10"/>
                         </StackPanel>
                     </DataTemplate>
                 </ListView.ItemTemplate>

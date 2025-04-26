@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Input;
 using System.Windows.Navigation;
 using QuizApp.Models;
@@ -18,6 +19,8 @@ public class QuizViewModel : BaseViewModel
     private ObservableCollection<Question> _questions;
 
     private readonly NavigationService _navigationService;
+
+
 
     public QuizViewModel(Quiz loadedQuiz, NavigationService navigationService)
     {
@@ -36,5 +39,31 @@ public class QuizViewModel : BaseViewModel
             OnPropertyChanged(nameof(Questions));
         }
     }
+
+    public void CheckQuiz()
+    {
+        int score = 0;
+
+        foreach (var question in Questions)
+        {
+            bool IsGoodAnswer = true;
+
+            foreach (var answer in question.Answers)
+            {
+                if (answer.IsCorrect != answer.IsSelected)
+                {
+                    IsGoodAnswer = false;
+                    break;
+                }
+            }
+
+            if (IsGoodAnswer)
+                score += question.Points;
+        }
+
+        MessageBox.Show(score.ToString());
+    }
+
+
 }
 

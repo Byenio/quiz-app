@@ -213,7 +213,7 @@ namespace QuizApp.Generator.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/QuizApp.Generator;V1.0.0.0;component/views/questioneditor.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/QuizApp.Generator;component/views/questioneditor.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\QuestionEditor.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

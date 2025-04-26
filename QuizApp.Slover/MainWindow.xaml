@@ -24,7 +24,7 @@
             
             <Button x:Name="btnFileInput" Content="Wczytaj quiz" Width="100" Grid.Column="0" Command="{Binding LoadQuizCommand}"/>
             <Button x:Name="btnStartQuiz" Content="Rozpocznij quiz" Width="100" Grid.Column="1" Command="{Binding StartQuizCommand}"/>
-            <Button x:Name="btnEndQuiz" Content="Zakończ quiz" Width="100" Grid.Column="2"/>
+            <Button x:Name="btnEndQuiz" Content="Zakończ quiz" Width="100" Grid.Column="2" Command="{Binding CheckQuizCommand}"/>
         </Grid>
         <Frame x:Name="QuizFrame" Grid.Row="2" NavigationUIVisibility="Hidden" Visibility="{Binding isQuizVisible}"/>
         <TextBlock Grid.Row="4" x:Name="txtTimer" Text="Czas: " FontSize="18"/>

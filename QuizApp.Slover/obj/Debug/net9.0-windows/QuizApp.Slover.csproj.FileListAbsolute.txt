@@ -32,7 +32,6 @@ D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Slover\bin\Deb
 D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Slover\bin\Debug\net9.0-windows\Microsoft.Extensions.Primitives.dll
 D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Slover\bin\Debug\net9.0-windows\Sprache.dll
 D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Slover\obj\Debug\net9.0-windows\Views\QuizView.g.cs
-D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Slover\obj\Debug\net9.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Slover\obj\Debug\net9.0-windows\Views\QuizView.baml
 D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Slover\obj\Debug\net9.0-windows\Views\QuizInfoView.g.cs
 D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Slover\obj\Debug\net9.0-windows\Views\QuizInfoView.baml
