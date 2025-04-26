@@ -40,29 +40,41 @@ public class QuizViewModel : BaseViewModel
         }
     }
 
+
     public void CheckQuiz()
     {
         int score = 0;
 
         foreach (var question in Questions)
         {
-            bool IsGoodAnswer = true;
+            bool allCorrect = true;
 
             foreach (var answer in question.Answers)
             {
-                if (answer.IsCorrect != answer.IsSelected)
+                if (answer.IsCorrect)
                 {
-                    IsGoodAnswer = false;
-                    break;
+                    answer.State = AnswerState.Correct;
+                }
+                else if (!answer.IsCorrect && answer.IsSelected)
+                {
+                    answer.State = AnswerState.Wrong;
+                    allCorrect = false;
+                }
+                else
+                {
+                    answer.State = AnswerState.None;
                 }
             }
 
-            if (IsGoodAnswer)
-                score += question.Points;
-        }
+            bool allCorrectlySelected = question.Answers.All(a =>
+                (a.IsCorrect && a.IsSelected) || (!a.IsCorrect && !a.IsSelected));
 
-        MessageBox.Show(score.ToString());
+            if (allCorrectlySelected)
+                score+=question.Points;
+        }
+        MessageBox.Show($"Your score: {score}/{_quiz.GetTotalPoints()}", "Quiz Result", MessageBoxButton.OK, MessageBoxImage.Information);
     }
+
 
 
 }

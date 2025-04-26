@@ -24,8 +24,6 @@ namespace QuizApp.Slover.ViewModels
         private ObservableCollection<Question> _questions;
         private IDialogService _dialogService;
         private NavigationService _navigationService;
-        private bool _isQuizLoaded;
-        private bool _isQuizStarted;
 
         private DispatcherTimer _timer;
         private TimeSpan _elapsedTime;
@@ -34,9 +32,9 @@ namespace QuizApp.Slover.ViewModels
         public QuizViewModel QuizVM { get; set; }
 
 
-        public RelayCommand LoadQuizCommand => new RelayCommand(execute => LoadQuiz(), canExecute=> _isQuizLoaded == false);
-        public RelayCommand StartQuizCommand => new RelayCommand(execute => StartQuiz(), canExecute => _isQuizLoaded == true && _isQuizStarted == false);
-        public RelayCommand CheckQuizCommand => new RelayCommand(execute => StopQuiz(), canExecute => _isQuizStarted == true);
+        public RelayCommand LoadQuizCommand => new RelayCommand(execute => LoadQuiz(), canExecute=> IsQuizLoaded == false);
+        public RelayCommand StartQuizCommand => new RelayCommand(execute => StartQuiz(), canExecute => IsQuizLoaded == true && IsQuizStarted == false);
+        public RelayCommand CheckQuizCommand => new RelayCommand(execute => StopQuiz(), canExecute => IsQuizStarted == true);
 
         public MainViewModel(IDialogService dialogService)
         {
@@ -76,6 +74,28 @@ namespace QuizApp.Slover.ViewModels
             {
                 _questions = value;
                 OnPropertyChanged(nameof(Questions));
+            }
+        }
+
+        private bool _isQuizStarted;
+        public bool IsQuizStarted
+        {
+            get => _isQuizStarted;
+            set
+            {
+                _isQuizStarted = value;
+                OnPropertyChanged(nameof(IsQuizStarted));
+            }
+        }
+
+        private bool _isQuizLoaded;
+        public bool IsQuizLoaded
+        {
+            get => _isQuizLoaded;
+            set
+            {
+                _isQuizLoaded = value;
+                OnPropertyChanged(nameof(IsQuizLoaded));
             }
         }
 
@@ -127,15 +147,15 @@ namespace QuizApp.Slover.ViewModels
         private void StartQuiz()
         {
             SetNavigationService(_navigationService, "Quiz");
-            _isQuizStarted = true;
+            IsQuizStarted = true;
             StartTimer();
         }
 
         private void StopQuiz()
         {
-            QuizVM.CheckQuiz();
             StopTimer();
-            _isQuizStarted = false;
+            QuizVM.CheckQuiz();
+            IsQuizStarted = false;
         }
 
         private void Timer_Tick(object sender, EventArgs e)

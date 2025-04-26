@@ -2,6 +2,13 @@
 
 namespace QuizApp.Models
 {
+    public enum AnswerState
+    {
+        None,
+        Correct,
+        Wrong
+    }
+
     public class Answer : INotifyPropertyChanged
     {
         public string Text { get; set; }
@@ -21,12 +28,29 @@ namespace QuizApp.Models
             }
         }
 
+        private AnswerState _state = AnswerState.None;
+        public AnswerState State
+        {
+            get => _state;
+            set
+            {
+                _state = value;
+                OnPropertyChanged(nameof(State));
+            }
+        }
+
         public Answer(string text, bool isCorrect)
         {
             Text = text ?? throw new ArgumentNullException(nameof(text));
             IsCorrect = isCorrect;
         }
 
+
+
         public event PropertyChangedEventHandler PropertyChanged;
+        protected void OnPropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
     }
 }

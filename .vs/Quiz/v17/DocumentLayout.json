@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|d:\\github\\programowanie\\programowanie_c-\\quizapp\\quiz-app\\quizapp.slover\\views\\quizview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|solutionrelative:quizapp.slover\\views\\quizview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|d:\\github\\programowanie\\programowanie_c-\\quizapp\\quiz-app\\quizapp.slover\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|solutionrelative:quizapp.slover\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|d:\\github\\programowanie\\programowanie_c-\\quizapp\\quiz-app\\quizapp.slover\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|solutionrelative:quizapp.slover\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|d:\\github\\programowanie\\programowanie_c-\\quizapp\\quiz-app\\quizapp.slover\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|solutionrelative:quizapp.slover\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|d:\\github\\programowanie\\programowanie_c-\\quizapp\\quiz-app\\quizapp.slover\\viewmodels\\quizviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +19,24 @@
       "RelativeMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|solutionrelative:quizapp.slover\\viewmodels\\quizinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|d:\\github\\programowanie\\programowanie_c-\\quizapp\\quiz-app\\quizapp.slover\\views\\quizview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|solutionrelative:quizapp.slover\\views\\quizview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|d:\\github\\programowanie\\programowanie_c-\\quizapp\\quiz-app\\quizapp.slover\\views\\quizinfoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|solutionrelative:quizapp.slover\\views\\quizinfoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|d:\\github\\programowanie\\programowanie_c-\\quizapp\\quiz-app\\quizapp.slover\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|solutionrelative:quizapp.slover\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|d:\\github\\programowanie\\programowanie_c-\\quizapp\\quiz-app\\quizapp.slover\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|solutionrelative:quizapp.slover\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|d:\\github\\programowanie\\programowanie_c-\\quizapp\\quiz-app\\quizapp.slover\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF36F46-7C0E-41F3-9BB2-B21F74330C16}|QuizApp.Slover\\QuizApp.Slover.csproj|solutionrelative:quizapp.slover\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{835F866A-7234-4499-9889-269C8684DCE7}|QuizApp.Models\\QuizApp.Models.csproj|d:\\github\\programowanie\\programowanie_c-\\quizapp\\quiz-app\\quizapp.models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{835F866A-7234-4499-9889-269C8684DCE7}|QuizApp.Models\\QuizApp.Models.csproj|solutionrelative:quizapp.models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{835F866A-7234-4499-9889-269C8684DCE7}|QuizApp.Models\\QuizApp.Models.csproj|d:\\github\\programowanie\\programowanie_c-\\quizapp\\quiz-app\\quizapp.models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 122,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,89 +63,108 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\Helpers\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "QuizApp.Slover\\Helpers\\RelayCommand.cs",
+              "ToolTip": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\Helpers\\RelayCommand.cs",
+              "RelativeToolTip": "QuizApp.Slover\\Helpers\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T13:15:50.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Quiz.cs",
+              "DocumentMoniker": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Models\\Quiz.cs",
+              "RelativeDocumentMoniker": "QuizApp.Models\\Quiz.cs",
+              "ToolTip": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Models\\Quiz.cs",
+              "RelativeToolTip": "QuizApp.Models\\Quiz.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T13:10:20.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "QuizInfoView.xaml",
               "DocumentMoniker": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\Views\\QuizInfoView.xaml",
               "RelativeDocumentMoniker": "QuizApp.Slover\\Views\\QuizInfoView.xaml",
               "ToolTip": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\Views\\QuizInfoView.xaml",
               "RelativeToolTip": "QuizApp.Slover\\Views\\QuizInfoView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-25T14:04:19.176Z"
+              "WhenOpened": "2025-04-25T14:04:19.176Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Answer.cs",
               "DocumentMoniker": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Models\\Answer.cs",
               "RelativeDocumentMoniker": "QuizApp.Models\\Answer.cs",
               "ToolTip": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Models\\Answer.cs",
               "RelativeToolTip": "QuizApp.Models\\Answer.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T09:21:58.584Z"
+              "WhenOpened": "2025-04-26T09:21:58.584Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "QuizInfoViewModel.cs",
               "DocumentMoniker": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\ViewModels\\QuizInfoViewModel.cs",
               "RelativeDocumentMoniker": "QuizApp.Slover\\ViewModels\\QuizInfoViewModel.cs",
               "ToolTip": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\ViewModels\\QuizInfoViewModel.cs",
               "RelativeToolTip": "QuizApp.Slover\\ViewModels\\QuizInfoViewModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAEwCAAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAvwCAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T14:06:38.714Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "QuizApp.Slover\\MainWindow.xaml",
-              "ToolTip": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\MainWindow.xaml*",
-              "RelativeToolTip": "QuizApp.Slover\\MainWindow.xaml*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-24T13:38:27.989Z",
+              "WhenOpened": "2025-04-25T14:06:38.714Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "QuizView.xaml",
               "DocumentMoniker": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\Views\\QuizView.xaml",
               "RelativeDocumentMoniker": "QuizApp.Slover\\Views\\QuizView.xaml",
               "ToolTip": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\Views\\QuizView.xaml",
               "RelativeToolTip": "QuizApp.Slover\\Views\\QuizView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-25T11:52:23.545Z"
+              "WhenOpened": "2025-04-25T11:52:23.545Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "QuizViewModel.cs",
               "DocumentMoniker": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\ViewModels\\QuizViewModel.cs",
               "RelativeDocumentMoniker": "QuizApp.Slover\\ViewModels\\QuizViewModel.cs",
-              "ToolTip": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\ViewModels\\QuizViewModel.cs",
-              "RelativeToolTip": "QuizApp.Slover\\ViewModels\\QuizViewModel.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAqwEAAAAAFAAAAAAAAAA==",
+              "ToolTip": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\ViewModels\\QuizViewModel.cs*",
+              "RelativeToolTip": "QuizApp.Slover\\ViewModels\\QuizViewModel.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAIAzwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T12:03:26.588Z"
+              "WhenOpened": "2025-04-25T12:03:26.588Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "QuizApp.Slover\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "QuizApp.Slover\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAADwv5sAAAAaAAAAAAAAAA==",
+              "ToolTip": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\ViewModels\\MainViewModel.cs*",
+              "RelativeToolTip": "QuizApp.Slover\\ViewModels\\MainViewModel.cs*",
+              "ViewState": "AgIAABQAAAAAAAAAAIA0wJkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T09:53:36.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "QuizApp.Slover\\MainWindow.xaml.cs",
@@ -146,6 +173,18 @@
               "ViewState": "AgIAAAEAAAAAAAAAAAAEwBsAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T13:38:27.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "QuizApp.Slover\\MainWindow.xaml",
+              "ToolTip": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Slover\\MainWindow.xaml",
+              "RelativeToolTip": "QuizApp.Slover\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-24T13:38:27.989Z",
               "EditorCaption": ""
             }
           ]

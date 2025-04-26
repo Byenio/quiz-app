@@ -12,5 +12,10 @@
             Description = description ?? throw new ArgumentNullException(nameof(description));
             Questions = new List<Question>();
         }
+
+        public int GetTotalPoints()
+        {
+            return Questions.Sum(q => q.Points);
+        }
     }
 }
