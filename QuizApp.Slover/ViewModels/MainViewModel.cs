@@ -12,6 +12,7 @@ using System.Windows.Navigation;
 using System.Windows.Input;
 using System.Collections.ObjectModel;
 using System.Windows;
+using System.Windows.Threading;
 
 namespace QuizApp.Slover.ViewModels
 {
@@ -26,12 +27,16 @@ namespace QuizApp.Slover.ViewModels
         private bool _isQuizLoaded;
         private bool _isQuizStarted;
 
+        private DispatcherTimer _timer;
+        private TimeSpan _elapsedTime;
+        public string ElapsedTimeDisplay => _elapsedTime.ToString(@"hh\:mm\:ss");
+
         public QuizViewModel QuizVM { get; set; }
 
 
         public RelayCommand LoadQuizCommand => new RelayCommand(execute => LoadQuiz(), canExecute=> _isQuizLoaded == false);
         public RelayCommand StartQuizCommand => new RelayCommand(execute => StartQuiz(), canExecute => _isQuizLoaded == true && _isQuizStarted == false);
-        public RelayCommand CheckQuizCommand => new RelayCommand(execute => QuizVM.CheckQuiz(), canExecute => _isQuizStarted == true);
+        public RelayCommand CheckQuizCommand => new RelayCommand(execute => StopQuiz(), canExecute => _isQuizStarted == true);
 
         public MainViewModel(IDialogService dialogService)
         {
@@ -39,6 +44,9 @@ namespace QuizApp.Slover.ViewModels
             _quiz = new Quiz(string.Empty, string.Empty);
             _questions = new ObservableCollection<Question>(_quiz.Questions);
             _isQuizLoaded = false;
+            _timer = new DispatcherTimer();
+            _timer.Interval = TimeSpan.FromSeconds(1); 
+            _timer.Tick += Timer_Tick;
         }
 
         public string QuizName
@@ -120,8 +128,33 @@ namespace QuizApp.Slover.ViewModels
         {
             SetNavigationService(_navigationService, "Quiz");
             _isQuizStarted = true;
+            StartTimer();
         }
 
+        private void StopQuiz()
+        {
+            QuizVM.CheckQuiz();
+            StopTimer();
+            _isQuizStarted = false;
+        }
+
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            _elapsedTime = _elapsedTime.Add(TimeSpan.FromSeconds(1));
+            OnPropertyChanged(nameof(ElapsedTimeDisplay));
+        }
+
+        public void StartTimer()
+        {
+            _elapsedTime = TimeSpan.Zero;
+            _timer.Start();
+            OnPropertyChanged(nameof(ElapsedTimeDisplay));
+        }
+
+        public void StopTimer()
+        {
+            _timer.Stop();
+        }
 
     }
 }
