@@ -99,6 +99,37 @@ namespace QuizApp.Slover.ViewModels
             }
         }
 
+        private int _score;
+        public int Score
+        {
+            get => _score;
+            set
+            {
+                _score = value;
+                OnPropertyChanged(nameof(Score));
+            }
+        }
+        private int _totalPoints;
+        public int TotalPoints
+        {
+            get => _totalPoints;
+            set
+            {
+                _totalPoints = value;
+                OnPropertyChanged(nameof(TotalPoints));
+            }
+        }
+        private string _scoreDisplay;
+        public string ScoreDisplay
+        {
+            get => _scoreDisplay;
+            set
+            {
+                _scoreDisplay = value;
+                OnPropertyChanged(nameof(ScoreDisplay));
+            }
+        }
+
         public Quiz Quiz => _quiz;
 
         public void SetNavigationService(NavigationService navigationService, string where)
@@ -140,6 +171,9 @@ namespace QuizApp.Slover.ViewModels
                 _dialogService.ShowError($"Error loading quiz: {ex.Message}", "Error");
             }
             _isQuizLoaded = true;
+            IsQuizStarted = false;
+            TotalPoints = _quiz.GetTotalPoints();
+            ScoreDisplay = $"Wynik: {Score} / {TotalPoints}";
             SetNavigationService(_navigationService,"QuizInfo");
 
         }
@@ -148,14 +182,18 @@ namespace QuizApp.Slover.ViewModels
         {
             SetNavigationService(_navigationService, "Quiz");
             IsQuizStarted = true;
+            QuizVM.IsQuizStarted = true;
             StartTimer();
         }
 
         private void StopQuiz()
         {
             StopTimer();
-            QuizVM.CheckQuiz();
+            Score = QuizVM.CheckQuiz();
+            ScoreDisplay = $"Wynik: {Score} / {TotalPoints}";
             IsQuizStarted = false;
+            QuizVM.IsQuizStarted = false;
+            IsQuizLoaded = false;
         }
 
         private void Timer_Tick(object sender, EventArgs e)

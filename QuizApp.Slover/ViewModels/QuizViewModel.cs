@@ -40,8 +40,18 @@ public class QuizViewModel : BaseViewModel
         }
     }
 
+    private bool _isQuizStarted;
+    public bool IsQuizStarted
+    {
+        get => _isQuizStarted;
+        set
+        {
+            _isQuizStarted = value;
+            OnPropertyChanged(nameof(IsQuizStarted));
+        }
+    }
 
-    public void CheckQuiz()
+    public int CheckQuiz()
     {
         int score = 0;
 
@@ -72,7 +82,7 @@ public class QuizViewModel : BaseViewModel
             if (allCorrectlySelected)
                 score+=question.Points;
         }
-        MessageBox.Show($"Your score: {score}/{_quiz.GetTotalPoints()}", "Quiz Result", MessageBoxButton.OK, MessageBoxImage.Information);
+        return score;
     }
 
 

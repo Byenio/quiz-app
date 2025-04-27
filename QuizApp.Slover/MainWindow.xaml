@@ -29,5 +29,6 @@
         </Grid>
         <Frame x:Name="QuizFrame" Grid.Row="2" NavigationUIVisibility="Hidden" Visibility="{Binding isQuizVisible}"/>
         <TextBlock Grid.Row="4" Text="{Binding ElapsedTimeDisplay}" FontSize="24" FontWeight="Bold" Foreground="DarkRed" HorizontalAlignment="Center" Margin="10"/>
+        <TextBlock Grid.Row="4" Text="{Binding ScoreDisplay}" FontSize="24" FontWeight="Bold" Foreground="DarkGreen" HorizontalAlignment="Right" Margin="10"/>
     </Grid>
 </Window>
