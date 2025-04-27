@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuizApp.Generator.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5891be3062a9492da29a3ddc72a7b5de52610b1b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c21060341559a9743d0daa6029bcad20d1c71ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuizApp.Generator.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuizApp.Generator.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
