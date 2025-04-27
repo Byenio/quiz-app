@@ -1,12 +1,13 @@
 ﻿using QuizApp.Models;
 using System.IO;
 using System.Text.Json;
+using QuizApp.Generator.Services.Interfaces;
 
 namespace QuizApp.Generator.Services
 {
-    public static class FileService
+    public class FileService : IFileService
     {
-        public static void SaveQuiz(Quiz quiz, string filePath)
+        public void SaveQuiz(Quiz quiz, string filePath)
         {
             if (string.IsNullOrEmpty(filePath))
                 throw new ArgumentNullException(nameof(filePath));
@@ -27,7 +28,7 @@ namespace QuizApp.Generator.Services
             }
         }
 
-        public static Quiz LoadQuiz(string filePath)
+        public Quiz LoadQuiz(string filePath)
         {
             if (string.IsNullOrEmpty(filePath))
                 throw new ArgumentNullException(nameof(filePath));

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP
 V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Generator\App.xaml
-316460777
+4-603413892
 1-783576874
-161156704406
+17-333950499
 202-76929821
-MainWindow.xaml;Views\QuestionEditor.xaml;Views\QuestionList.xaml;
+MainWindow.xaml;Styles.xaml;Views\QuestionEditor.xaml;Views\QuestionList.xaml;
 
-True
+False
 

@@ -6,7 +6,16 @@
       xmlns:local="clr-namespace:QuizApp.Generator.Views"
       mc:Ignorable="d" 
       d:DesignHeight="420" d:DesignWidth="700"
-      Title="QuestionEditor">
+      Title="QuestionEditor"
+      Background="#0C0C0C" Foreground="#FAF9F6">
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+
     <Grid Margin="40, 0, 20, 0">
         <Grid.RowDefinitions>
             <RowDefinition Height="2*" />
