@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Generator\obj\Debug\net9.0-windows\
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Generator\obj\Debug\net9.0-windows\
 QuizApp.Generator
 none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP
-D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Generator\App.xaml
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Generator\App.xaml
 316460777
 1-783576874
 161156704406
-202-211535893
+202-76929821
 MainWindow.xaml;Views\QuestionEditor.xaml;Views\QuestionList.xaml;
 
-False
+True
 
