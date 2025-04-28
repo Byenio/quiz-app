@@ -17,7 +17,8 @@
                            FontSize="18"
                            FontWeight="Bold"
                            TextWrapping="Wrap"
-                           Margin="0,0,0,10"/>
+                           Margin="0,0,0,10"
+                           MaxWidth="750"/>
 
                             <ItemsControl ItemsSource="{Binding Answers}">
                                 <ItemsControl.ItemTemplate>
@@ -26,7 +27,8 @@
                                       IsChecked="{Binding IsSelected, Mode=TwoWay}"
                                       FontSize="16"
                                       Margin="10,5"
-                                      IsEnabled="{Binding IsQuizStarted}">
+                                      IsEnabled="{Binding IsQuizStarted}"
+                                      MaxWidth="750">
 
                                             <CheckBox.Style>
                                                 <Style TargetType="CheckBox">

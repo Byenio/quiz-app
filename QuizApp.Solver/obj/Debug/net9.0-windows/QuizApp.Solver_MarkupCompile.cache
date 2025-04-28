@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Solver\obj\Debug\net9.0-windows\
+D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Solver\obj\Debug\net9.0-windows\
 QuizApp.Solver
 none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP
-V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Solver\App.xaml
+D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Solver\App.xaml
 3-1163429952
 1-783576874
 15-1694404638
-2071542180486
+207277795393
 MainWindow.xaml;Views\QuizInfoView.xaml;Views\QuizView.xaml;
 
 False
