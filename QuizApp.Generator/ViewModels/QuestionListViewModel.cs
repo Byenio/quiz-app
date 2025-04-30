@@ -2,6 +2,8 @@
 using System.Windows.Input;
 using System.Windows.Navigation;
 using QuizApp.Generator.Helpers;
+using QuizApp.Generator.Services;
+using QuizApp.Generator.Services.Interfaces;
 using QuizApp.Models;
 
 namespace QuizApp.Generator.ViewModels
@@ -10,12 +12,14 @@ namespace QuizApp.Generator.ViewModels
     {
         private readonly Quiz _quiz;
         private readonly NavigationService _navigationService;
+        private readonly IDialogService _dialogService;
         private ObservableCollection<Question> _questions;
 
-        public QuestionListViewModel(Quiz quiz, NavigationService navigationService)
+        public QuestionListViewModel(Quiz quiz, NavigationService navigationService, IDialogService dialogService)
         {
             _quiz = quiz;
             _navigationService = navigationService;
+            _dialogService = new DialogService();
             _questions = new ObservableCollection<Question>(_quiz.Questions);
             EditQuestionCommand = new RelayCommand(param => EditQuestion(param));
             AddQuestionCommand = new RelayCommand(param => AddQuestion(param));
@@ -42,7 +46,7 @@ namespace QuizApp.Generator.ViewModels
             {
                 _navigationService.Navigate(new Views.QuestionEditor
                 {
-                    DataContext = new QuestionViewModel(_quiz, question, _navigationService)
+                    DataContext = new QuestionViewModel(_quiz, question, _navigationService, _dialogService)
                 });
             }
         }
@@ -58,7 +62,7 @@ namespace QuizApp.Generator.ViewModels
             }, 1);
             _navigationService.Navigate(new Views.QuestionEditor
             {
-                DataContext = new QuestionViewModel(_quiz, newQuestion, _navigationService, true)
+                DataContext = new QuestionViewModel(_quiz, newQuestion, _navigationService, _dialogService, true)
             });
         }
 
@@ -66,12 +70,12 @@ namespace QuizApp.Generator.ViewModels
         {
             if (parameter is Question question)
             {
-                var result = System.Windows.MessageBox.Show("Are you sure you want to delete this question?", "Confirm Delete", System.Windows.MessageBoxButton.YesNo, System.Windows.MessageBoxImage.Question);
-                if (result == System.Windows.MessageBoxResult.Yes)
-                {
-                    _quiz.Questions.Remove(question);
-                    Questions.Remove(question);
-                }
+                var result = _dialogService.ShowConfirmation("Are you sure you want to delete this question?",
+                    "Confirm question deletion");
+                if (!result) return;
+                
+                _quiz.Questions.Remove(question);
+                Questions.Remove(question);
             }
         }
     }

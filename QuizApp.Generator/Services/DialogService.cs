@@ -16,6 +16,11 @@ namespace QuizApp.Generator.Services
             MessageBox.Show(message, caption, MessageBoxButton.OK, MessageBoxImage.Error);
         }
 
+        public bool ShowWarning(string message, string caption)
+        {
+            return MessageBox.Show(message, caption, MessageBoxButton.OKCancel, MessageBoxImage.Warning) == MessageBoxResult.OK;
+        }
+
         public string ShowSaveFileDialog(string filter, string defaultExt)
         {
             var dialog = new SaveFileDialog

@@ -5,6 +5,7 @@ using QuizApp.Generator.Services;
 using System.IO;
 using QuizApp.Generator.Helpers;
 using QuizApp.Generator.Services.Interfaces;
+using QuizApp.Generator.Views;
 
 namespace QuizApp.Generator.ViewModels
 {
@@ -23,6 +24,7 @@ namespace QuizApp.Generator.ViewModels
 
             SaveQuizCommand = new RelayCommand(SaveQuiz);
             LoadQuizCommand = new RelayCommand(LoadQuiz);
+            ClearQuizCommand = new RelayCommand(ClearQuiz);
         }
 
 
@@ -50,11 +52,12 @@ namespace QuizApp.Generator.ViewModels
 
         public ICommand SaveQuizCommand { get; }
         public ICommand LoadQuizCommand { get; }
+        public ICommand ClearQuizCommand { get; }
 
         public void SetNavigationService(NavigationService navigationService)
         {
             _navigationService = navigationService;
-            _navigationService.Navigate(new Views.QuestionList { DataContext = new QuestionListViewModel(_quiz, _navigationService) });
+            _navigationService.Navigate(new Views.QuestionList { DataContext = new QuestionListViewModel(_quiz, _navigationService, _dialogService) });
         }
 
         private void SaveQuiz(object parameter)
@@ -109,12 +112,28 @@ namespace QuizApp.Generator.ViewModels
                 }
                 QuizName = quiz.Name;
                 QuizDescription = quiz.Description;
-                _navigationService.Navigate(new Views.QuestionList { DataContext = new QuestionListViewModel(_quiz, _navigationService) });
+                _navigationService.Navigate(new Views.QuestionList { DataContext = new QuestionListViewModel(_quiz, _navigationService, _dialogService) });
             }
             catch (IOException ex)
             {
                 _dialogService.ShowError($"Error loading quiz: {ex.Message}", "Error");
             }
+        }
+
+        private void ClearQuiz(object parameter)
+        {
+            bool confirmed = _dialogService.ShowWarning("You're about to clear all the data.", "Warning");
+
+            if (!confirmed) return;
+            
+            QuizName = string.Empty;
+            QuizDescription = string.Empty;
+            _quiz.Questions.Clear();
+
+            _navigationService.Navigate(new Views.QuestionList 
+            { 
+                DataContext = new QuestionListViewModel(_quiz, _navigationService, _dialogService) 
+            });
         }
     }
 }

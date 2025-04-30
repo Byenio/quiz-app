@@ -26,6 +26,7 @@
                 <RowDefinition Height="2*" />
                 <RowDefinition Height="4*" />
                 <RowDefinition Height="2*" />
+                <RowDefinition Height="1*" />
             </Grid.RowDefinitions>
 
             <TextBlock Text="Quiz name:" Grid.Row="0" />
@@ -51,20 +52,26 @@
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
 
-                <Button x:Name="SaveFile" Content="Save" HorizontalAlignment="Center" Grid.Column="0"
+                <Button x:Name="SaveFile" Content="Save" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="0"
                     Margin="0, 25, 0, 25"
                     Width="100"
                     Click="SaveQuiz_Click"
                     FontSize="16"
                     FontWeight="Bold" />
 
-                <Button x:Name="LoadFile" Content="Load" HorizontalAlignment="Center" Grid.Column="1"
+                <Button x:Name="LoadFile" Content="Load" HorizontalAlignment="Center" Grid.Column="1" Grid.Row="0"
                     Margin="0, 25, 0, 25"
                     Width="100"
                     Click="LoadQuiz_Click"
                     FontSize="16"
                     FontWeight="Bold" />
             </Grid>
+            
+            <Button x:Name="ClearButton" Content="Clear All" HorizontalAlignment="Center" Grid.Row="3"
+                    Width="250"
+                    Click="ClearAll_Click"
+                    FontSize="16"
+                    FontWeight="Bold" />
         </Grid>
 
         <Frame x:Name="ContentGrid" Grid.Column="1" NavigationUIVisibility="Hidden" />

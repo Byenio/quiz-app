@@ -3,6 +3,8 @@ using System.Windows.Navigation;
 using QuizApp.Models;
 using System.Collections.ObjectModel;
 using QuizApp.Generator.Helpers;
+using QuizApp.Generator.Services;
+using QuizApp.Generator.Services.Interfaces;
 
 namespace QuizApp.Generator.ViewModels
 {
@@ -11,16 +13,18 @@ namespace QuizApp.Generator.ViewModels
         private readonly Quiz _quiz;
         private readonly Question _question;
         private readonly NavigationService _navigationService;
+        private readonly IDialogService _dialogService;
         private readonly bool _isNewQuestion;
         private string _questionText;
         private int _questionPoints;
         private ObservableCollection<AnswerViewModel> _answers;
 
-        public QuestionViewModel(Quiz quiz, Question question, NavigationService navigationService, bool isNewQuestion = false)
+        public QuestionViewModel(Quiz quiz, Question question, NavigationService navigationService, IDialogService dialogService, bool isNewQuestion = false)
         {
             _quiz = quiz;
             _question = question;
             _navigationService = navigationService;
+            _dialogService = dialogService;
             _isNewQuestion = isNewQuestion;
             _questionText = question.Text;
             _questionPoints = question.Points;
@@ -85,12 +89,12 @@ namespace QuizApp.Generator.ViewModels
                 _quiz.Questions.Add(_question);
             }
 
-            _navigationService.Navigate(new Views.QuestionList { DataContext = new QuestionListViewModel(_quiz, _navigationService) });
+            _navigationService.Navigate(new Views.QuestionList { DataContext = new QuestionListViewModel(_quiz, _navigationService, _dialogService) });
         }
 
         private void CancelQuestion()
         {
-            _navigationService.Navigate(new Views.QuestionList { DataContext = new QuestionListViewModel(_quiz, _navigationService) });
+            _navigationService.Navigate(new Views.QuestionList { DataContext = new QuestionListViewModel(_quiz, _navigationService, _dialogService) });
         }
     }
 }

@@ -1,4 +1,7 @@
 ﻿using System.Windows;
+using System.Windows.Input;
+using System.Windows.Navigation;
+using QuizApp.Generator.Helpers;
 using QuizApp.Generator.Services;
 using QuizApp.Generator.ViewModels;
 
@@ -28,6 +31,12 @@ namespace QuizApp.Generator
         {
             var viewModel = DataContext as MainViewModel;
             viewModel?.LoadQuizCommand.Execute(null);
+        }
+
+        private void ClearAll_Click(object sender, RoutedEventArgs e)
+        {
+            var viewModel = DataContext as MainViewModel;
+            viewModel?.ClearQuizCommand.Execute(null);
         }
     }
 }
