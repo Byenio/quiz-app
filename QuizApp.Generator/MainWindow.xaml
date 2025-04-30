@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:QuizApp.Generator"
         mc:Ignorable="d"
         Title="Quiz Generator" Height="620" Width="1020"
-        Background="#0C0C0C" Foreground="#FAF9F6">
+        Background="#0C0C0C" Foreground="#FAF9F6" Icon="media/cogs.ico">
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
