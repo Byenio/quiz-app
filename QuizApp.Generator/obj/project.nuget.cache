@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kzuGvd2LMvU=",
+  "dgSpecHash": "zHBrbq28XjI=",
   "success": true,
-  "projectFilePath": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Generator\\QuizApp.Generator.csproj",
+  "projectFilePath": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\QuizApp.Generator.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Michał\\.nuget\\packages\\dotenv.net\\3.2.1\\dotenv.net.3.2.1.nupkg.sha512"
+    "C:\\Users\\marce\\.nuget\\packages\\dotenv.net\\3.2.1\\dotenv.net.3.2.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -27,34 +27,36 @@
                 Width="120" FontSize="14" FontWeight="Bold"
                 Command="{Binding AddQuestionCommand}"/>
 
-        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
-            <ListView x:Name="QuestionListView" ItemsSource="{Binding Questions}">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <Grid Margin="5">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*"/>
-                                <ColumnDefinition Width="Auto"/>
-                            </Grid.ColumnDefinitions>
-                            <Border BorderBrush="Gray" BorderThickness="1" Padding="10" Grid.Column="0">
-                                <StackPanel>
-                                    <TextBlock Text="{Binding Text}" FontSize="16" FontWeight="SemiBold" TextWrapping="NoWrap" Width="540" HorizontalAlignment="Left"/>
-                                    <TextBlock Text="{Binding Points, StringFormat='Points: {0}'}" FontSize="12" Foreground="Gray"/>
-                                </StackPanel>
-                            </Border>
-                            <Button Content="Delete" Grid.Column="1" Margin="5,0,0,0" Width="60"
-                                    Command="{Binding DataContext.DeleteQuestionCommand, RelativeSource={RelativeSource AncestorType=ListView}}"
-                                    CommandParameter="{Binding}"/>
-                        </Grid>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-                <ListView.ItemContainerStyle>
-                    <Style TargetType="ListViewItem">
-                        <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
-                        <EventSetter Event="MouseDoubleClick" Handler="ListViewItem_MouseDoubleClick"/>
-                    </Style>
-                </ListView.ItemContainerStyle>
-            </ListView>
-        </ScrollViewer>
+        <ListView x:Name="QuestionListView"
+                  Grid.Row="1"
+                  ItemsSource="{Binding Questions}"
+                  PreviewMouseWheel="QuestionListView_PreviewMouseWheel">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Border BorderBrush="Gray" BorderThickness="1" Padding="10" Grid.Column="0">
+                            <StackPanel>
+                                <TextBlock Text="{Binding Text}" FontSize="16" FontWeight="SemiBold" TextWrapping="NoWrap" Width="540" HorizontalAlignment="Left"/>
+                                <TextBlock Text="{Binding Points, StringFormat='Points: {0}'}" FontSize="12" Foreground="Gray"/>
+                            </StackPanel>
+                        </Border>
+                        <Button Content="Delete" Grid.Column="1" Margin="5,0,0,0" Width="60"
+                                Command="{Binding DataContext.DeleteQuestionCommand, RelativeSource={RelativeSource AncestorType=ListView}}"
+                                CommandParameter="{Binding}"/>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                    <EventSetter Event="MouseDoubleClick" Handler="ListViewItem_MouseDoubleClick"/>
+                </Style>
+            </ListView.ItemContainerStyle>
+        </ListView>
+
     </Grid>
 </Page>

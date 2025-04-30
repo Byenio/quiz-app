@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Generator.Tests\\QuizApp.Generator.Tests.csproj": {}
+    "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator.Tests\\QuizApp.Generator.Tests.csproj": {}
   },
   "projects": {
-    "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Generator.Tests\\QuizApp.Generator.Tests.csproj": {
+    "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator.Tests\\QuizApp.Generator.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Generator.Tests\\QuizApp.Generator.Tests.csproj",
+        "projectUniqueName": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator.Tests\\QuizApp.Generator.Tests.csproj",
         "projectName": "QuizApp.Generator.Tests",
-        "projectPath": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Generator.Tests\\QuizApp.Generator.Tests.csproj",
-        "packagesPath": "C:\\Users\\Michał\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Generator.Tests\\obj\\",
+        "projectPath": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator.Tests\\QuizApp.Generator.Tests.csproj",
+        "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
+        "outputPath": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Michał\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,18 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0-windows7.0": {
             "targetAlias": "net9.0-windows",
             "projectReferences": {
-              "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Generator\\QuizApp.Generator.csproj": {
-                "projectPath": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Generator\\QuizApp.Generator.csproj"
+              "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\QuizApp.Generator.csproj": {
+                "projectPath": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\QuizApp.Generator.csproj"
               },
-              "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Models\\QuizApp.Models.csproj": {
-                "projectPath": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Models\\QuizApp.Models.csproj"
+              "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Models\\QuizApp.Models.csproj": {
+                "projectPath": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Models\\QuizApp.Models.csproj"
               }
             }
           }
@@ -91,24 +90,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Generator\\QuizApp.Generator.csproj": {
+    "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\QuizApp.Generator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Generator\\QuizApp.Generator.csproj",
+        "projectUniqueName": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\QuizApp.Generator.csproj",
         "projectName": "QuizApp.Generator",
-        "projectPath": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Generator\\QuizApp.Generator.csproj",
-        "packagesPath": "C:\\Users\\Michał\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Generator\\obj\\",
+        "projectPath": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\QuizApp.Generator.csproj",
+        "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
+        "outputPath": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Michał\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -117,15 +116,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0-windows7.0": {
             "targetAlias": "net9.0-windows",
             "projectReferences": {
-              "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Models\\QuizApp.Models.csproj": {
-                "projectPath": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Models\\QuizApp.Models.csproj"
+              "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Models\\QuizApp.Models.csproj": {
+                "projectPath": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Models\\QuizApp.Models.csproj"
               }
             }
           }
@@ -170,24 +168,24 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Models\\QuizApp.Models.csproj": {
+    "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Models\\QuizApp.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Models\\QuizApp.Models.csproj",
+        "projectUniqueName": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Models\\QuizApp.Models.csproj",
         "projectName": "QuizApp.Models",
-        "projectPath": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Models\\QuizApp.Models.csproj",
-        "packagesPath": "C:\\Users\\Michał\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Models\\obj\\",
+        "projectPath": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Models\\QuizApp.Models.csproj",
+        "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
+        "outputPath": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Michał\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -196,7 +194,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -236,7 +233,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
