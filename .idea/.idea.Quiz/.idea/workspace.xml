@@ -10,30 +10,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9598f832-032c-4e36-acfc-f135ee109544" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Quiz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Quiz/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator.Tests/bin/Debug/net9.0-windows/.msCoverageSourceRootsMapping_QuizApp.Generator.Tests" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator.Tests/bin/Debug/net9.0-windows/.msCoverageSourceRootsMapping_QuizApp.Generator.Tests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator.Tests/bin/Debug/net9.0-windows/QuizApp.Generator.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator.Tests/bin/Debug/net9.0-windows/QuizApp.Generator.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator.Tests/bin/Debug/net9.0-windows/QuizApp.Generator.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator.Tests/bin/Debug/net9.0-windows/QuizApp.Generator.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator.Tests/bin/Debug/net9.0-windows/QuizApp.Generator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator.Tests/bin/Debug/net9.0-windows/QuizApp.Generator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator.Tests/bin/Debug/net9.0-windows/QuizApp.Generator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator.Tests/bin/Debug/net9.0-windows/QuizApp.Generator.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator.Tests/bin/Debug/net9.0-windows/QuizApp.Generator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator.Tests/bin/Debug/net9.0-windows/QuizApp.Generator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator.Tests/bin/Debug/net9.0-windows/QuizApp.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator.Tests/bin/Debug/net9.0-windows/QuizApp.Models.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator.Tests/bin/Debug/net9.0-windows/QuizApp.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator.Tests/bin/Debug/net9.0-windows/QuizApp.Models.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/Debug/net9.0-windows/QuizApp.Generator.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/Debug/net9.0-windows/QuizApp.Generator.Tests.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/Debug/net9.0-windows/QuizApp.Generator.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/Debug/net9.0-windows/QuizApp.Generator.Tests.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/Debug/net9.0-windows/QuizApp.Generator.Tests.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/Debug/net9.0-windows/QuizApp.Generator.Tests.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/Debug/net9.0-windows/QuizApp.Generator.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/Debug/net9.0-windows/QuizApp.Generator.Tests.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/Debug/net9.0-windows/QuizApp.Generator.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/Debug/net9.0-windows/QuizApp.Generator.Tests.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/Debug/net9.0-windows/QuizApp.Generator.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/Debug/net9.0-windows/QuizApp.Generator.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/Debug/net9.0-windows/QuizApp.Generator.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/Debug/net9.0-windows/QuizApp.Generator.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/Debug/net9.0-windows/QuizApp.Generator.Tests.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/Debug/net9.0-windows/QuizApp.Generator.Tests.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/Debug/net9.0-windows/ref/QuizApp.Generator.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/Debug/net9.0-windows/ref/QuizApp.Generator.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/Debug/net9.0-windows/refint/QuizApp.Generator.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/Debug/net9.0-windows/refint/QuizApp.Generator.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/QuizApp.Generator.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/QuizApp.Generator.Tests.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/QuizApp.Generator.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/QuizApp.Generator.Tests.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator.Tests/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuizApp.Generator/Styles.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator/Styles.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Generator/bin/Debug/net9.0-windows/QuizApp.Generator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator/bin/Debug/net9.0-windows/QuizApp.Generator.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Generator/bin/Debug/net9.0-windows/QuizApp.Generator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator/bin/Debug/net9.0-windows/QuizApp.Generator.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Generator/bin/Debug/net9.0-windows/QuizApp.Generator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator/bin/Debug/net9.0-windows/QuizApp.Generator.pdb" afterDir="false" />
@@ -41,70 +21,26 @@
       <change beforePath="$PROJECT_DIR$/QuizApp.Generator/bin/Debug/net9.0-windows/QuizApp.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator/bin/Debug/net9.0-windows/QuizApp.Models.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/QuizApp.Generator.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/QuizApp.Generator.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/QuizApp.Generator.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/QuizApp.Generator.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/QuizApp.Generator.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/QuizApp.Generator.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/QuizApp.Generator.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/QuizApp.Generator.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/QuizApp.Generator.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/QuizApp.Generator.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/QuizApp.Generator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/QuizApp.Generator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/QuizApp.Generator.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/QuizApp.Generator.g.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/QuizApp.Generator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/QuizApp.Generator.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/QuizApp.Generator.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/QuizApp.Generator.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/Styles.baml" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/Styles.baml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/ref/QuizApp.Generator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/ref/QuizApp.Generator.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/refint/QuizApp.Generator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator/obj/Debug/net9.0-windows/refint/QuizApp.Generator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator/obj/QuizApp.Generator.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator/obj/QuizApp.Generator.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator/obj/QuizApp.Generator.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator/obj/QuizApp.Generator.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Generator/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Generator/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Models/bin/Debug/net9.0/QuizApp.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Models/bin/Debug/net9.0/QuizApp.Models.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Models/bin/Debug/net9.0/QuizApp.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Models/bin/Debug/net9.0/QuizApp.Models.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Models/obj/Debug/net9.0/QuizApp.Models.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Models/obj/Debug/net9.0/QuizApp.Models.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Models/obj/Debug/net9.0/QuizApp.Models.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Models/obj/Debug/net9.0/QuizApp.Models.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Models/obj/Debug/net9.0/QuizApp.Models.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Models/obj/Debug/net9.0/QuizApp.Models.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Models/obj/Debug/net9.0/QuizApp.Models.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Models/obj/Debug/net9.0/QuizApp.Models.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Models/obj/Debug/net9.0/QuizApp.Models.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Models/obj/Debug/net9.0/QuizApp.Models.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Models/obj/Debug/net9.0/QuizApp.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Models/obj/Debug/net9.0/QuizApp.Models.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Models/obj/Debug/net9.0/QuizApp.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Models/obj/Debug/net9.0/QuizApp.Models.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Models/obj/Debug/net9.0/QuizApp.Models.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Models/obj/Debug/net9.0/QuizApp.Models.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Models/obj/Debug/net9.0/ref/QuizApp.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Models/obj/Debug/net9.0/ref/QuizApp.Models.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Models/obj/Debug/net9.0/refint/QuizApp.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Models/obj/Debug/net9.0/refint/QuizApp.Models.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Models/obj/QuizApp.Models.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Models/obj/QuizApp.Models.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Models/obj/QuizApp.Models.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Models/obj/QuizApp.Models.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Models/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Models/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Models/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Models/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Models/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Models/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Models/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Models/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/bin/Debug/net9.0-windows/QuizApp.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/bin/Debug/net9.0-windows/QuizApp.Models.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/bin/Debug/net9.0-windows/QuizApp.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/bin/Debug/net9.0-windows/QuizApp.Models.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/bin/Debug/net9.0-windows/QuizApp.Solver.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/bin/Debug/net9.0-windows/QuizApp.Solver.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/bin/Debug/net9.0-windows/QuizApp.Solver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/bin/Debug/net9.0-windows/QuizApp.Solver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/bin/Debug/net9.0-windows/QuizApp.Solver.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/bin/Debug/net9.0-windows/QuizApp.Solver.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/App.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/MainWindow.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver_Content.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver_Content.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver_MarkupCompile.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver_MarkupCompile.lref" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/QuizApp.Solver_MarkupCompile.lref" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/Views/QuizInfoView.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/Views/QuizInfoView.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/Views/QuizView.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/Views/QuizView.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/ref/QuizApp.Solver.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/ref/QuizApp.Solver.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/refint/QuizApp.Solver.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/Debug/net9.0-windows/refint/QuizApp.Solver.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/QuizApp.Solver.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/QuizApp.Solver.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/QuizApp.Solver.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/QuizApp.Solver.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizApp.Solver/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/QuizApp.Solver/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,10 +96,11 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected=".NET Project.QuizApp.Slover">
+  <component name="RunManager" selected=".NET Project.QuizApp.Generator">
     <configuration name="QuizApp.Generator" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -227,6 +164,8 @@
       <workItem from="1745785064356" duration="919000" />
       <workItem from="1745786590412" duration="178000" />
       <workItem from="1745786808967" duration="239000" />
+      <workItem from="1746001183798" duration="5328000" />
+      <workItem from="1746283176496" duration="364000" />
     </task>
     <task id="LOCAL-00001" summary="fix(86c34v9hw): fix data validation on file save">
       <option name="closed" value="true" />
@@ -304,5 +243,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
