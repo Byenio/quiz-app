@@ -8,8 +8,7 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="QuizView">
     <Grid>
-        <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
-            <ListView x:Name="QuestionListView" ItemsSource="{Binding Questions}">
+        <ListView x:Name="QuestionListView" ItemsSource="{Binding Questions}" PreviewMouseWheel="QuizView_PreviewMouseWheel">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Margin="10">
@@ -59,6 +58,5 @@
                 </ListView.ItemContainerStyle>
             </ListView>
 
-        </ScrollViewer>
     </Grid>
 </Page>

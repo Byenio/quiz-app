@@ -15,14 +15,35 @@ using System.Windows.Shapes;
 
 namespace QuizApp.Solver.Views
 {
-    /// <summary>
-    /// Logika interakcji dla klasy QuizView.xaml
-    /// </summary>
+
     public partial class QuizView : Page
     {
         public QuizView()
         {
             InitializeComponent();
+        }
+
+        private void QuizView_PreviewMouseWheel(object sender, MouseWheelEventArgs e)
+        {
+            var scrollViewer = FindVisualChild<ScrollViewer>(QuestionListView);
+            double scrollAmount = e.Delta > 0 ? -1 : 1;
+            const double scrollMultiplier = 1;
+            scrollViewer.ScrollToVerticalOffset(scrollViewer.VerticalOffset + scrollAmount * scrollMultiplier);
+            e.Handled = true;
+        }
+
+        private static T FindVisualChild<T>(DependencyObject obj) where T : DependencyObject
+        {
+            for (var i = 0; i < VisualTreeHelper.GetChildrenCount(obj); i++)
+            {
+                var child = VisualTreeHelper.GetChild(obj, i);
+                if (child is T t)
+                    return t;
+                var childOfChild = FindVisualChild<T>(child);
+
+                return childOfChild;
+            }
+            return null;
         }
     }
 }

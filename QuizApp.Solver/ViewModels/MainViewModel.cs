@@ -1,17 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using QuizApp.Models;
+﻿using QuizApp.Models;
 using QuizApp.Solver.Services;
 using QuizApp.Solver.Helpers;
 using QuizApp.Solver.Services.Interfaces;
 using System.IO;
 using System.Windows.Navigation;
-using System.Windows.Input;
 using System.Collections.ObjectModel;
-using System.Windows;
 using System.Windows.Threading;
 
 namespace QuizApp.Solver.ViewModels
