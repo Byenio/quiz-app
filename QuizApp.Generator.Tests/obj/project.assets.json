@@ -493,6 +493,18 @@
           }
         }
       },
+      "xunit.runner.visualstudio/2.4.5": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/_._": {}
+        },
+        "build": {
+          "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
+        }
+      },
       "QuizApp.Generator/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -1101,6 +1113,40 @@
         "xunit.extensibility.execution.nuspec"
       ]
     },
+    "xunit.runner.visualstudio/2.4.5": {
+      "sha512": "OwHamvBdUKgqsXfBzWiCW/O98BTx81UKzx2bieIOQI7CZFE5NEQZGi8PBQGIKawDW96xeRffiNf20SjfC0x9hw==",
+      "type": "package",
+      "path": "xunit.runner.visualstudio/2.4.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "build/net462/xunit.abstractions.dll",
+        "build/net462/xunit.runner.reporters.net452.dll",
+        "build/net462/xunit.runner.utility.net452.dll",
+        "build/net462/xunit.runner.visualstudio.props",
+        "build/net462/xunit.runner.visualstudio.testadapter.dll",
+        "build/netcoreapp3.1/xunit.abstractions.dll",
+        "build/netcoreapp3.1/xunit.runner.reporters.netcoreapp10.dll",
+        "build/netcoreapp3.1/xunit.runner.utility.netcoreapp10.dll",
+        "build/netcoreapp3.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll",
+        "build/netcoreapp3.1/xunit.runner.visualstudio.props",
+        "build/uap10.0.16299/xunit.runner.reporters.netstandard15.dll",
+        "build/uap10.0.16299/xunit.runner.utility.netstandard15.dll",
+        "build/uap10.0.16299/xunit.runner.utility.uwp10.dll",
+        "build/uap10.0.16299/xunit.runner.utility.uwp10.pri",
+        "build/uap10.0.16299/xunit.runner.visualstudio.props",
+        "build/uap10.0.16299/xunit.runner.visualstudio.targets",
+        "build/uap10.0.16299/xunit.runner.visualstudio.uwp.testadapter.dll",
+        "build/uap10.0.16299/xunit.runner.visualstudio.uwp.testadapter.pri",
+        "lib/net462/_._",
+        "lib/netcoreapp3.1/_._",
+        "lib/uap10.0.16299/_._",
+        "logo-512-transparent.png",
+        "xunit.runner.visualstudio.2.4.5.nupkg.sha512",
+        "xunit.runner.visualstudio.nuspec"
+      ]
+    },
     "QuizApp.Generator/1.0.0": {
       "type": "project",
       "path": "../QuizApp.Generator/QuizApp.Generator.csproj",
@@ -1119,27 +1165,28 @@
       "Moq >= 4.20.72",
       "QuizApp.Generator >= 1.0.0",
       "QuizApp.Models >= 1.0.0",
-      "xunit >= 2.9.3"
+      "xunit >= 2.9.3",
+      "xunit.runner.visualstudio >= 2.4.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Michał\\.nuget\\packages\\": {},
+    "C:\\Users\\marce\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Generator.Tests\\QuizApp.Generator.Tests.csproj",
+      "projectUniqueName": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator.Tests\\QuizApp.Generator.Tests.csproj",
       "projectName": "QuizApp.Generator.Tests",
-      "projectPath": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Generator.Tests\\QuizApp.Generator.Tests.csproj",
-      "packagesPath": "C:\\Users\\Michał\\.nuget\\packages\\",
-      "outputPath": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Generator.Tests\\obj\\",
+      "projectPath": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator.Tests\\QuizApp.Generator.Tests.csproj",
+      "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
+      "outputPath": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Michał\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1148,18 +1195,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
           "projectReferences": {
-            "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Generator\\QuizApp.Generator.csproj": {
-              "projectPath": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Generator\\QuizApp.Generator.csproj"
+            "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\QuizApp.Generator.csproj": {
+              "projectPath": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Generator\\QuizApp.Generator.csproj"
             },
-            "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Models\\QuizApp.Models.csproj": {
-              "projectPath": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\QuizApp.Models\\QuizApp.Models.csproj"
+            "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Models\\QuizApp.Models.csproj": {
+              "projectPath": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Models\\QuizApp.Models.csproj"
             }
           }
         }
@@ -1195,6 +1241,10 @@
           "xunit": {
             "target": "Package",
             "version": "[2.9.3, )"
+          },
+          "xunit.runner.visualstudio": {
+            "target": "Package",
+            "version": "[2.4.5, )"
           }
         },
         "imports": [
@@ -1213,7 +1263,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\github\\programowanie\\Programowanie_C-\\quizApp\\quiz-app\\",
-  "Documents": [],
+  "WorkspaceRootPath": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D62F612-E5B5-4830-88D4-A7E251E7AA6B}|QuizApp.Solver\\QuizApp.Solver.csproj|v:\\polsl\\zsi\\m03\\quiz-app\\quiz\\quizapp.solver\\views\\quizview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6D62F612-E5B5-4830-88D4-A7E251E7AA6B}|QuizApp.Solver\\QuizApp.Solver.csproj|solutionrelative:quizapp.solver\\views\\quizview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 122,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +23,18 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuizView.xaml",
+              "DocumentMoniker": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Solver\\Views\\QuizView.xaml",
+              "RelativeDocumentMoniker": "QuizApp.Solver\\Views\\QuizView.xaml",
+              "ToolTip": "V:\\polsl\\zsi\\m03\\quiz-app\\Quiz\\QuizApp.Solver\\Views\\QuizView.xaml",
+              "RelativeToolTip": "QuizApp.Solver\\Views\\QuizView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-04T14:22:14.176Z",
+              "EditorCaption": ""
             }
           ]
         }

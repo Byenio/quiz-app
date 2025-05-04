@@ -73,3 +73,4 @@ D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Solver\bin\Deb
 D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Solver\obj\Debug\net9.0-windows\QuizApp.Solver.genruntimeconfig.cache
 D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Solver\obj\Debug\net9.0-windows\ref\QuizApp.Solver.dll
 D:\github\programowanie\Programowanie_C-\quizApp\quiz-app\QuizApp.Solver\obj\Debug\net9.0-windows\Styles.baml
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Solver\obj\Debug\net9.0-windows\Styles.baml

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using QuizApp.Solver.Services;
+using QuizApp.Solver.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,6 +23,10 @@ namespace QuizApp.Solver.Views
         public QuizView()
         {
             InitializeComponent();
+
+            var dialogService = new DialogService();
+
+            DataContext = new MainViewModel(dialogService);
         }
 
         private void QuizView_PreviewMouseWheel(object sender, MouseWheelEventArgs e)

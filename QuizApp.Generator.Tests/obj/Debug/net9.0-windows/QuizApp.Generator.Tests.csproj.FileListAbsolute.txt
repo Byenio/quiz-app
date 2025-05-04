@@ -107,3 +107,6 @@ V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Generator.Tests\obj\Debug\net9.0-windows\
 V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Generator.Tests\obj\Debug\net9.0-windows\QuizApp.Generator.Tests.pdb
 V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Generator.Tests\obj\Debug\net9.0-windows\QuizApp.Generator.Tests.genruntimeconfig.cache
 V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Generator.Tests\obj\Debug\net9.0-windows\ref\QuizApp.Generator.Tests.dll
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Generator.Tests\bin\Debug\net9.0-windows\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Generator.Tests\bin\Debug\net9.0-windows\xunit.runner.reporters.netcoreapp10.dll
+V:\polsl\zsi\m03\quiz-app\Quiz\QuizApp.Generator.Tests\bin\Debug\net9.0-windows\xunit.runner.utility.netcoreapp10.dll

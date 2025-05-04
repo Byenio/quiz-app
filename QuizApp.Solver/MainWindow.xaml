@@ -33,7 +33,7 @@
             <Button x:Name="btnStartQuiz" Content="Rozpocznij quiz" Width="100" Grid.Column="1" Command="{Binding StartQuizCommand}"/>
             <Button x:Name="btnEndQuiz" Content="Zakończ quiz" Width="100" Grid.Column="2" Command="{Binding CheckQuizCommand}"/>
         </Grid>
-        <Frame x:Name="QuizFrame" Grid.Row="2" NavigationUIVisibility="Hidden" Visibility="{Binding isQuizVisible}"/>
+        <Frame x:Name="QuizFrame" Grid.Row="2" NavigationUIVisibility="Hidden"/>
         <TextBlock Grid.Row="4" Text="{Binding ElapsedTimeDisplay}" FontSize="24" FontWeight="Bold" Foreground="DarkRed" HorizontalAlignment="Center" Margin="10"/>
         <TextBlock Grid.Row="4" Text="{Binding ScoreDisplay}" FontSize="24" FontWeight="Bold" Foreground="DarkGreen" HorizontalAlignment="Right" Margin="10"/>
     </Grid>
